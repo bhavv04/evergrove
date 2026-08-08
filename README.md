@@ -1,4 +1,4 @@
-# v3portfolio 
+# evergrove
 
 ![portfolio](./public/images/readme.png)
 
@@ -8,7 +8,7 @@ a little corner of the internet, hand crafted with next.js and too much chocolat
 
 ```bash
 git clone https://github.com/bhavv04/v3portfolio.git
-cd v3portfolio
+cd evergrove
 yarn install
 yarn dev
 ```

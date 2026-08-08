@@ -21,7 +21,7 @@ interface LanguageStat {
 	color: string;
 }
 
-const EXCLUDED_REPOS = ["v3portfolio"]; // add any others to skip
+const EXCLUDED_REPOS = ["evergrove"]; // add any others to skip
 
 // GitHub's linguist colors — add more as your repos use new languages
 const LANGUAGE_COLORS: Record<string, string> = {
