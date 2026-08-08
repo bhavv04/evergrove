@@ -173,14 +173,14 @@ export function CommandPalette({ items }: { items: SearchItem[] }) {
 				label: "GitHub",
 				group: "Connect",
 				icon: Github,
-				perform: () => go("https://github.com/yourusername")
+				perform: () => go("https://github.com/bhavv04")
 			},
 			{
 				id: "linkedin",
 				label: "LinkedIn",
 				group: "Connect",
 				icon: Linkedin,
-				perform: () => go("https://linkedin.com/in/yourusername")
+				perform: () => go("https://linkedin.com/in/bhavdeeparora")
 			},
 			{
 				id: "resume",
