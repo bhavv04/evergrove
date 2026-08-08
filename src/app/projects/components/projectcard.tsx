@@ -18,7 +18,7 @@ export function ProjectCard({ project }: { project: Project }) {
 						</div>
 					) : (
 						<div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-md bg-white/5 ring-1 ring-white/10">
-							<span className="font-mono text-sm text-white/30">{project.title.charAt(0)}</span>
+							<span className="text-sm text-white/30">{project.title.charAt(0)}</span>
 						</div>
 					)}
 

@@ -78,11 +78,11 @@ export function BookHoverText() {
 			<span
 				ref={popoverRef}
 				style={{ ["--tw-translate-x" as string]: `calc(-50% + ${offset}px)` }}
-				className={`absolute bottom-full left-1/2 z-50 w-64 origin-bottom overflow-hidden rounded-xl border border-white transition-all duration-200 ease-out md:w-72 ${
+				className={`absolute bottom-full left-1/2 z-50 w-64 origin-bottom overflow-hidden rounded-md transition-all duration-200 ease-out md:w-72 ${
 					open ? "pointer-events-auto translate-y-0 scale-100 opacity-100" : "pointer-events-none translate-y-1 scale-90 opacity-0"
 				}`}
 			>
-				<span className="flex border border-white/70 bg-stone-950 bg-gradient-to-b from-white/10 to-white/0 shadow-2xl shadow-black/40 backdrop-blur-2xl backdrop-saturate-150">
+				<span className="flex">
 					{FAVORITE_BOOKS.map((book) => (
 						<img
 							key={book.title}
