@@ -159,7 +159,7 @@ export function MusicWidget() {
 										<span>-{formatTime(Math.max(duration - position, 0))}</span>
 									</div>
 
-									<div className="mt-2 flex items-center gap-4">
+									<div className="mt-2 flex items-center gap-3">
 										<button
 											onClick={(e) => {
 												e.stopPropagation();
@@ -168,7 +168,7 @@ export function MusicWidget() {
 											className="text-white/70 transition-colors hover:scale-120 hover:text-white active:scale-95"
 											aria-label="Previous track"
 										>
-											<SkipBack size={15} fill="currentColor" />
+											<SkipBack size={18} fill="currentColor" />
 										</button>
 										<button
 											onClick={(e) => {
@@ -178,7 +178,7 @@ export function MusicWidget() {
 											className="text-white transition-transform hover:scale-120 active:scale-95"
 											aria-label={isPlaying ? "Pause" : "Play"}
 										>
-											{isPlaying ? <Pause size={20} fill="currentColor" /> : <Play size={20} fill="currentColor" />}
+											{isPlaying ? <Pause size={21} fill="currentColor" /> : <Play size={21} fill="currentColor" />}
 										</button>
 										<button
 											onClick={(e) => {
@@ -188,7 +188,7 @@ export function MusicWidget() {
 											className="text-white/70 transition-colors hover:scale-120 hover:text-white active:scale-95"
 											aria-label="Next track"
 										>
-											<SkipForward size={15} fill="currentColor" />
+											<SkipForward size={18} fill="currentColor" />
 										</button>
 
 										<div className="ml-auto flex items-center gap-1.5" onClick={(e) => e.stopPropagation()}>
