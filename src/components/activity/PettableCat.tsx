@@ -28,7 +28,7 @@ const OVERPET_LINES = ["okay STOP", "I'M DIZZY", "too much!!", "aaahh--"];
 const DIZZY_THRESHOLD = 3;
 const OVERPET_THRESHOLD = 6; // clicks while already dizzy before it maxes out
 const AGGRESSIVE_GAP_MS = 300;
-const MAX_VISIBLE_LOG = 12;
+const MAX_VISIBLE_LOG = 10;
 
 type EventType = "pet" | "aggressive" | "dizzy" | "overpet";
 type CatEvent = { type: EventType; at: number };
@@ -190,26 +190,25 @@ export default function PettableCat() {
 
 	return (
 		<div className="relative flex h-full w-full flex-col overflow-hidden p-4">
-			<h3 className="mb-3 flex items-center gap-2 text-sm font-medium text-white/60">say hi</h3>
+			<h3 className="mb-3 flex items-center gap-2 text-sm text-white/60">say hi</h3>
 
 			{/* Log */}
 			<div className="relative flex-1 overflow-hidden pr-24 sm:pr-30">
-				<ul className="flex max-h-40 flex-col gap-1.5 overflow-hidden text-xs">
-					{!visibleLog.length && <li className="text-white/40 italic">no one&apos;s said hi yet</li>}
+				<ul className="flex max-h-45 flex-col gap-1 text-3xs sm:text-xs">
+					{!visibleLog.length && <li className="text-white/40">no one&apos;s said hi yet</li>}
 					{visibleLog.map((e, i) => (
 						<li key={`${e.at}-${i}`} className={`flex items-center justify-between gap-2 ${LOG_COLOR[e.type]}`}>
-							<span className="truncate">{LOG_COPY[e.type]}</span>
+							<span className="">{LOG_COPY[e.type]}</span>
 							<span className="shrink-0 text-white/30">{timeAgo(e.at)}</span>
 						</li>
 					))}
 				</ul>
-				<div className="pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-[var(--background,black)] to-transparent backdrop-blur-[0.5px]" />
 			</div>
 
 			{/* Standing cat, tucked into the bottom-right corner */}
 			<div
 				onClick={pet}
-				className="group absolute right-2 bottom-2 flex cursor-pointer flex-col items-center justify-end select-none"
+				className="group absolute right-2 bottom-5 flex cursor-pointer flex-col items-center justify-end select-none"
 				title={overpetted ? "okay, that's enough" : isDizzy ? "keep going or let it recover" : "pet the cat"}
 			>
 				<span className="text-2xs text-white/40 opacity-0 transition-opacity group-hover:opacity-100">
@@ -230,114 +229,6 @@ export default function PettableCat() {
   /|   |\\
  (_|___|_)`}
 				</pre>
-
-				<style jsx>{`
-					@keyframes shake {
-						0% {
-							transform: rotate(0deg) scale(1);
-						}
-						20% {
-							transform: rotate(-4deg) scale(1.05);
-						}
-						40% {
-							transform: rotate(4deg) scale(1.08);
-						}
-						60% {
-							transform: rotate(-3deg) scale(1.05);
-						}
-						80% {
-							transform: rotate(2deg) scale(1.02);
-						}
-						100% {
-							transform: rotate(0deg) scale(1);
-						}
-					}
-					@keyframes shakeHard {
-						0% {
-							transform: rotate(0deg) scale(1);
-						}
-						10% {
-							transform: rotate(-10deg) scale(1.1);
-						}
-						20% {
-							transform: rotate(9deg) scale(1.15);
-						}
-						30% {
-							transform: rotate(-11deg) scale(1.12);
-						}
-						40% {
-							transform: rotate(10deg) scale(1.18);
-						}
-						50% {
-							transform: rotate(-8deg) scale(1.1);
-						}
-						60% {
-							transform: rotate(7deg) scale(1.08);
-						}
-						70% {
-							transform: rotate(-5deg) scale(1.05);
-						}
-						80% {
-							transform: rotate(4deg) scale(1.03);
-						}
-						90% {
-							transform: rotate(-2deg) scale(1.01);
-						}
-						100% {
-							transform: rotate(0deg) scale(1);
-						}
-					}
-					@keyframes shakeMega {
-						0% {
-							transform: rotate(0deg) scale(1);
-						}
-						8% {
-							transform: rotate(-14deg) scale(1.15);
-						}
-						16% {
-							transform: rotate(13deg) scale(1.22);
-						}
-						24% {
-							transform: rotate(-15deg) scale(1.2);
-						}
-						32% {
-							transform: rotate(14deg) scale(1.25);
-						}
-						40% {
-							transform: rotate(-13deg) scale(1.22);
-						}
-						48% {
-							transform: rotate(12deg) scale(1.2);
-						}
-						56% {
-							transform: rotate(-10deg) scale(1.16);
-						}
-						64% {
-							transform: rotate(9deg) scale(1.12);
-						}
-						72% {
-							transform: rotate(-7deg) scale(1.08);
-						}
-						80% {
-							transform: rotate(5deg) scale(1.05);
-						}
-						88% {
-							transform: rotate(-3deg) scale(1.02);
-						}
-						100% {
-							transform: rotate(0deg) scale(1);
-						}
-					}
-					.shake {
-						animation: shake 0.35s ease-out;
-					}
-					.shake-hard {
-						animation: shakeHard 0.4s ease-out;
-					}
-					.shake-mega {
-						animation: shakeMega 0.5s ease-out;
-					}
-				`}</style>
 			</div>
 		</div>
 	);
