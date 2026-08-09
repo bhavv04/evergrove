@@ -28,7 +28,7 @@ export default function HeroSection() {
 			<div className="fade-in-up" style={{ "--delay-index": 3 } as React.CSSProperties}>
 				<p>
 					I&apos;m a{" "}
-					<span className="font-semibold text-stone-400 tabular-nums" suppressHydrationWarning>
+					<span className="text-stone-400 tabular-nums" suppressHydrationWarning>
 						{age} y/o
 					</span>{" "}
 					systems focused software engineer based in Toronto. I&apos;ve been programming for over six years, always chasing whatever problem catches

@@ -85,7 +85,7 @@ export function MusicWidget() {
 							transition={shellSpring}
 							style={{ transformOrigin: "top right" }}
 							onClick={() => setIsExpanded(true)}
-							className="absolute top-0 right-0 flex w-44 items-center gap-2 overflow-hidden rounded-xl border border-white/15 bg-stone-950/60 p-1.5 pr-2.5 text-left shadow-2xl shadow-black/50 backdrop-blur-2xl backdrop-saturate-150"
+							className="absolute top-0 right-0 flex w-44 cursor-pointer items-center gap-2 overflow-hidden rounded-lg bg-white/5 p-2 pr-3 text-left backdrop-blur-xl backdrop-saturate-150"
 							aria-label="Expand music player"
 						>
 							<motion.div
@@ -95,20 +95,16 @@ export function MusicWidget() {
 								transition={contentFade}
 								className="flex w-full items-center gap-2"
 							>
-								<img src={currentTrack.cover} alt={currentTrack.title} className="h-8 w-8 shrink-0 rounded-md object-cover shadow-sm" />
+								<img src={currentTrack.cover} alt={currentTrack.title} className="h-8 w-8 shrink-0 rounded-md object-cover" />
 								<div className="min-w-0 flex-1">
 									<p className="truncate text-xs font-semibold text-white">{currentTrack.title}</p>
 									<p className="truncate text-2xs text-white/50">{currentTrack.artist}</p>
 								</div>
-								{isPlaying ? (
-									<Pause size={14} fill="currentColor" className="shrink-0 text-white/70" />
-								) : (
-									<Play size={14} fill="currentColor" className="ml-0.5 shrink-0 text-white/70" />
-								)}
+								{isPlaying ? <Pause size={16} fill="currentColor" className="" /> : <Play size={16} fill="currentColor" className="" />}
 							</motion.div>
 
 							<div className="absolute inset-x-0 bottom-0 h-0.5 bg-white/10">
-								<div className="h-full bg-white/70" style={{ width: `${progressPct}%` }} />
+								<div className="h-full bg-white" style={{ width: `${progressPct}%` }} />
 							</div>
 						</motion.button>
 					) : (
@@ -120,7 +116,7 @@ export function MusicWidget() {
 							transition={shellSpring}
 							style={{ transformOrigin: "top right" }}
 							onClick={() => setIsExpanded(false)}
-							className="absolute top-0 right-0 w-80 cursor-pointer overflow-hidden rounded-2xl border border-white/15 bg-stone-950/60 p-3 shadow-2xl shadow-black/50 backdrop-blur-2xl backdrop-saturate-150 lg:right-auto lg:left-0"
+							className="absolute top-0 right-0 w-80 cursor-pointer overflow-hidden rounded-xl bg-white/5 p-3 shadow-xl shadow-black backdrop-blur-lg backdrop-saturate-150 lg:right-auto lg:left-0"
 						>
 							<motion.div
 								initial={{ opacity: 0 }}
@@ -129,11 +125,7 @@ export function MusicWidget() {
 								transition={{ ...contentFade, delay: shouldReduceMotion ? 0 : 0.08 }}
 								className="flex items-start gap-3"
 							>
-								<img
-									src={currentTrack.cover}
-									alt={currentTrack.title}
-									className="h-24 w-24 shrink-0 rounded-lg object-cover shadow-lg ring-1 ring-white/10"
-								/>
+								<img src={currentTrack.cover} alt={currentTrack.title} className="h-24 w-24 shrink-0 rounded-lg object-cover" />
 
 								<div className="min-w-0 flex-1">
 									<div className="min-w-0">
