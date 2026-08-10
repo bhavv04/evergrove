@@ -12,6 +12,7 @@ import { enforceSingleAudioPlayback } from "@/lib/audio/mediaExclusivity";
 import { CommandPalette } from "@/components/search/CommandPalette";
 import type { SearchItem } from "@/lib/search/getSearchIndex";
 import { SearchTrigger } from "@/components/search/SearchTrigger";
+import { CustomCursor } from "@/components/ui/CustomCursor";
 
 interface RootLayoutClientProps {
 	children: React.ReactNode;
@@ -25,6 +26,7 @@ export function RootLayoutClient({ children, searchIndex }: RootLayoutClientProp
 
 	return (
 		<CatProvider>
+			<CustomCursor />
 			<ScrollBackground />
 			<Oneko />
 			<ResponsiveContainer>

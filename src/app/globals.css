@@ -130,6 +130,7 @@
 		--muted-foreground: 240 5% 70.9%;
 
 		--accent: 240 3.7% 18.3%;
+		--accent-blue: #3b82f6;
 		--accent-foreground: 0 0% 98%;
 
 		--destructive: 0 62.8% 30.6%;
@@ -700,6 +701,17 @@ body.custom-cursor-text .paper-cursor-root {
 	opacity: 0 !important;
 }
 
+/* Custom paper-airplane cursor */
+body.custom-cursor-active,
+body.custom-cursor-active * {
+	cursor: none !important;
+}
+
+body.custom-cursor-active.custom-cursor-text,
+body.custom-cursor-active.custom-cursor-text * {
+	cursor: text !important;
+}
+
 .paper-cursor-root {
 	position: fixed;
 	top: 0;
@@ -709,8 +721,11 @@ body.custom-cursor-text .paper-cursor-root {
 	pointer-events: none;
 	z-index: 9999;
 	opacity: 0;
-	transition: opacity 0.15s ease;
-	will-change: transform;
+	transition: opacity 0.18s ease;
+}
+
+body.custom-cursor-text .paper-cursor-root {
+	opacity: 0 !important;
 }
 
 .paper-cursor-plane {
@@ -720,17 +735,31 @@ body.custom-cursor-text .paper-cursor-root {
 	width: 38px;
 	height: 30px;
 	will-change: transform;
+	filter: drop-shadow(0 2px 4px rgba(15, 23, 42, 0.25));
+}
+
+.paper-cursor-plane svg {
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
 }
 
 .paper-cursor-body {
-	fill: #e5e5e5;
-	transition: fill 0.15s ease;
+	fill: #000000;
+	stroke: #ffffff;
+	stroke-width: 1.5;
+	stroke-linejoin: round;
+	paint-order: stroke fill;
+	transition: fill 0.2s ease;
 }
 
-.paper-cursor-hover .paper-cursor-body {
-	fill: #39d353;
+.paper-cursor-root.paper-cursor-hover .paper-cursor-body {
+	fill: var(--accent-blue);
 }
 
-.paper-cursor-down .paper-cursor-body {
-	fill: #39d353;
+@media (pointer: coarse) {
+	.paper-cursor-root {
+		display: none;
+	}
 }
