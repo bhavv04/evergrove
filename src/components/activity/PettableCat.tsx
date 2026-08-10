@@ -208,7 +208,7 @@ export default function PettableCat() {
 			{/* Standing cat, tucked into the bottom-right corner */}
 			<div
 				onClick={pet}
-				className="group absolute right-2 bottom-5 flex cursor-pointer flex-col items-center justify-end select-none"
+				className="group absolute right-2 bottom-5 flex flex-col items-center justify-end select-none"
 				title={overpetted ? "okay, that's enough" : isDizzy ? "keep going or let it recover" : "pet the cat"}
 			>
 				<span className="text-2xs text-white/40 opacity-0 transition-opacity group-hover:opacity-100">

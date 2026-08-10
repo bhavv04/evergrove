@@ -147,7 +147,7 @@ export default function Footer() {
 					<button
 						type="submit"
 						disabled={isSending}
-						className="relative inline-flex h-10 cursor-pointer items-center justify-center gap-2 rounded-md bg-neutral-800 px-4 py-2 text-sm whitespace-nowrap text-white transition-colors duration-200 ease-in-out hover:bg-white hover:text-gray-900 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:bg-neutral-800 disabled:hover:text-white"
+						className="relative inline-flex h-10 items-center justify-center gap-2 rounded-md bg-neutral-800 px-4 py-2 text-sm whitespace-nowrap text-white transition-colors duration-200 ease-in-out hover:bg-white hover:text-gray-900 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:bg-neutral-800 disabled:hover:text-white"
 					>
 						<span className="relative z-10">{isSending ? "Sending..." : "Send Message"}</span>
 					</button>

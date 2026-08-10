@@ -344,7 +344,7 @@ export function CommandPalette({ items }: { items: SearchItem[] }) {
 													}}
 													onMouseMove={() => setSelected(idx)}
 													onClick={() => runCommand(cmd)}
-													className={`flex w-full cursor-pointer items-center gap-2 rounded-lg px-2.5 py-1.5 text-left text-sm transition-colors ${
+													className={`flex w-full items-center gap-2 rounded-lg px-2.5 py-1.5 text-left text-sm transition-colors ${
 														isSelected ? "bg-white/10 text-white" : "text-white/80"
 													}`}
 												>

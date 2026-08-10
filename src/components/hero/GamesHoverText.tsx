@@ -61,7 +61,7 @@ export function GameHoverText() {
 	return (
 		<span
 			ref={ref}
-			className="group relative inline-block cursor-pointer underline decoration-white/50 underline-offset-3 transition-colors duration-300 hover:decoration-white"
+			className="group relative inline-block underline decoration-white/50 underline-offset-3 transition-colors duration-300 hover:decoration-white"
 			onMouseEnter={() => setHovered(true)}
 			onMouseLeave={() => {
 				setHovered(false);

@@ -85,7 +85,7 @@ export function MusicWidget() {
 							transition={shellSpring}
 							style={{ transformOrigin: "top right" }}
 							onClick={() => setIsExpanded(true)}
-							className="absolute top-0 right-0 flex w-44 cursor-pointer items-center gap-2 overflow-hidden rounded-lg bg-white/5 p-2 pr-3 text-left backdrop-blur-xl backdrop-saturate-150"
+							className="absolute top-0 right-0 flex w-44 items-center gap-2 overflow-hidden rounded-lg bg-white/5 p-2 pr-3 text-left backdrop-blur-xl backdrop-saturate-150"
 							aria-label="Expand music player"
 						>
 							<motion.div
@@ -139,7 +139,7 @@ export function MusicWidget() {
 										onPointerDown={handlePointerDown}
 										onPointerMove={handlePointerMove}
 										onPointerUp={handlePointerUp}
-										className="group/bar relative mt-2 flex h-3 cursor-pointer touch-none items-center"
+										className="group/bar relative mt-2 flex h-3 touch-none items-center"
 									>
 										<div className="h-1 w-full overflow-hidden rounded-full bg-white/10">
 											<div
@@ -165,7 +165,7 @@ export function MusicWidget() {
 												e.stopPropagation();
 												previousTrack();
 											}}
-											className="cursor-pointer text-white transition-all hover:scale-120 active:scale-95"
+											className="text-white transition-all hover:scale-120 active:scale-95"
 											aria-label="Previous track"
 										>
 											<SkipBack size={18} fill="currentColor" />
@@ -175,7 +175,7 @@ export function MusicWidget() {
 												e.stopPropagation();
 												togglePlay();
 											}}
-											className="cursor-pointer text-white transition-transform hover:scale-120 active:scale-95"
+											className="text-white transition-transform hover:scale-120 active:scale-95"
 											aria-label={isPlaying ? "Pause" : "Play"}
 										>
 											{isPlaying ? <Pause size={21} fill="currentColor" /> : <Play size={21} fill="currentColor" />}
@@ -185,7 +185,7 @@ export function MusicWidget() {
 												e.stopPropagation();
 												nextTrack();
 											}}
-											className="cursor-pointer text-white transition-all hover:scale-120 active:scale-95"
+											className="text-white transition-all hover:scale-120 active:scale-95"
 											aria-label="Next track"
 										>
 											<SkipForward size={18} fill="currentColor" />
@@ -206,7 +206,7 @@ export function MusicWidget() {
 												step={0.01}
 												value={volume}
 												onChange={(e) => setVolume(Number(e.target.value))}
-												className="h-1 w-15 cursor-pointer touch-none appearance-none rounded-full bg-white/10 accent-white/70 [&::-moz-range-thumb]:h-3 [&::-moz-range-thumb]:w-3 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border-0 [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:transition-transform [&::-moz-range-thumb]:duration-150 [&::-moz-range-thumb]:hover:scale-125 [&::-moz-range-thumb]:active:scale-125 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow [&::-webkit-slider-thumb]:transition-transform [&::-webkit-slider-thumb]:duration-150 [&::-webkit-slider-thumb]:hover:scale-125 [&::-webkit-slider-thumb]:active:scale-125"
+												className="h-1 w-15 touch-none appearance-none rounded-full bg-white/10 accent-white/70"
 											/>
 										</div>
 									</div>

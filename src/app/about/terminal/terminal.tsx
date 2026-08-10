@@ -181,7 +181,7 @@ const Terminal: React.FC = () => {
 				</div>
 				<span className="text-center text-xs text-stone-600">bhav~default</span>
 				<span className="text-right text-stone-600">
-					<X className="inline-block h-4 w-4 cursor-pointer rounded hover:bg-stone-700/50" onClick={() => router.push("/about")} />
+					<X className="inline-block h-4 w-4 rounded hover:bg-stone-700/50" onClick={() => router.push("/about")} />
 				</span>
 			</div>
 
