@@ -197,7 +197,7 @@ export function MusicWidget() {
 												className="text-white/40 transition-colors hover:text-white"
 												aria-label={volume === 0 ? "Unmute" : "Mute"}
 											>
-												{volume === 0 ? <VolumeX size={11} /> : <Volume2 size={11} />}
+												{volume === 0 ? <VolumeX size={14} /> : <Volume2 size={14} />}
 											</button>
 											<input
 												type="range"
