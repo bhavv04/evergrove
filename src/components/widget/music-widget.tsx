@@ -116,7 +116,7 @@ export function MusicWidget() {
 							transition={shellSpring}
 							style={{ transformOrigin: "top right" }}
 							onClick={() => setIsExpanded(false)}
-							className="absolute top-0 right-0 w-80 cursor-pointer overflow-hidden rounded-xl bg-white/5 p-3 shadow-xl shadow-black backdrop-blur-lg backdrop-saturate-150 lg:right-auto lg:left-0"
+							className="absolute top-0 right-0 w-75 overflow-hidden rounded-xl bg-white/5 p-3 shadow-xl shadow-black backdrop-blur-lg backdrop-saturate-150 lg:right-auto lg:left-0"
 						>
 							<motion.div
 								initial={{ opacity: 0 }}
@@ -159,13 +159,13 @@ export function MusicWidget() {
 										<span>-{formatTime(Math.max(duration - position, 0))}</span>
 									</div>
 
-									<div className="mt-2 flex items-center gap-3">
+									<div className="mt-2 flex items-center gap-2.5">
 										<button
 											onClick={(e) => {
 												e.stopPropagation();
 												previousTrack();
 											}}
-											className="text-white/70 transition-colors hover:scale-120 hover:text-white active:scale-95"
+											className="cursor-pointer text-white transition-all hover:scale-120 active:scale-95"
 											aria-label="Previous track"
 										>
 											<SkipBack size={18} fill="currentColor" />
@@ -175,7 +175,7 @@ export function MusicWidget() {
 												e.stopPropagation();
 												togglePlay();
 											}}
-											className="text-white transition-transform hover:scale-120 active:scale-95"
+											className="cursor-pointer text-white transition-transform hover:scale-120 active:scale-95"
 											aria-label={isPlaying ? "Pause" : "Play"}
 										>
 											{isPlaying ? <Pause size={21} fill="currentColor" /> : <Play size={21} fill="currentColor" />}
@@ -185,13 +185,13 @@ export function MusicWidget() {
 												e.stopPropagation();
 												nextTrack();
 											}}
-											className="text-white/70 transition-colors hover:scale-120 hover:text-white active:scale-95"
+											className="cursor-pointer text-white transition-all hover:scale-120 active:scale-95"
 											aria-label="Next track"
 										>
 											<SkipForward size={18} fill="currentColor" />
 										</button>
 
-										<div className="ml-auto flex items-center gap-1.5" onClick={(e) => e.stopPropagation()}>
+										<div className="flex items-center gap-1.5" onClick={(e) => e.stopPropagation()}>
 											<button
 												onClick={() => setVolume(volume > 0 ? 0 : 0.5)}
 												className="text-white/40 transition-colors hover:text-white"
@@ -206,7 +206,7 @@ export function MusicWidget() {
 												step={0.01}
 												value={volume}
 												onChange={(e) => setVolume(Number(e.target.value))}
-												className="h-1 w-16 cursor-pointer touch-none appearance-none rounded-full bg-white/10 accent-white/70 [&::-moz-range-thumb]:h-3 [&::-moz-range-thumb]:w-3 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border-0 [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:transition-transform [&::-moz-range-thumb]:duration-150 [&::-moz-range-thumb]:hover:scale-125 [&::-moz-range-thumb]:active:scale-125 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow [&::-webkit-slider-thumb]:transition-transform [&::-webkit-slider-thumb]:duration-150 [&::-webkit-slider-thumb]:hover:scale-125 [&::-webkit-slider-thumb]:active:scale-125"
+												className="h-1 w-15 cursor-pointer touch-none appearance-none rounded-full bg-white/10 accent-white/70 [&::-moz-range-thumb]:h-3 [&::-moz-range-thumb]:w-3 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:border-0 [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:transition-transform [&::-moz-range-thumb]:duration-150 [&::-moz-range-thumb]:hover:scale-125 [&::-moz-range-thumb]:active:scale-125 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:shadow [&::-webkit-slider-thumb]:transition-transform [&::-webkit-slider-thumb]:duration-150 [&::-webkit-slider-thumb]:hover:scale-125 [&::-webkit-slider-thumb]:active:scale-125"
 											/>
 										</div>
 									</div>
