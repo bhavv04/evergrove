@@ -192,12 +192,6 @@
 	}
 }
 
-@media (pointer: fine) {
-	* {
-		cursor: none !important;
-	}
-}
-
 .bg-card {
 	background-color: rgb(24 24 27 / 0);
 }
