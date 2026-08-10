@@ -671,17 +671,6 @@ body.custom-cursor-text .paper-cursor-root {
 	opacity: 0 !important;
 }
 
-/* Custom paper-airplane cursor */
-body.custom-cursor-active,
-body.custom-cursor-active * {
-	cursor: none !important;
-}
-
-body.custom-cursor-active.custom-cursor-text,
-body.custom-cursor-active.custom-cursor-text * {
-	cursor: text !important;
-}
-
 .paper-cursor-root {
 	position: fixed;
 	top: 0;
