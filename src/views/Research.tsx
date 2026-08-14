@@ -10,7 +10,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function ResearchView() {
 	return (
-		<section id="research" className="mx-auto">
+		<section id="research" className="">
 			<SectionTitle
 				text={
 					<span className="flex items-center gap-2 text-3xl">
@@ -21,8 +21,8 @@ export default function ResearchView() {
 			/>
 
 			<Card>
-				<CardContent className="flex flex-col gap-6 p-6">
-					<div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
+				<CardContent className="flex flex-col px-4">
+					<div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
 						{caseStudies.map((study) => (
 							<CaseStudyCard key={study.id} study={study} />
 						))}

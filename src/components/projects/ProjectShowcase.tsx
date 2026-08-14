@@ -73,7 +73,7 @@ export function ProjectShowcase({ project, direction = "row" }: ProjectShowcaseP
 						</CarouselContent>
 
 						{hasMultiple && (
-							<div className="mt-4 flex items-center justify-between">
+							<div className="flex items-center justify-between pt-4">
 								{/* Dot indicators */}
 								<div className="flex gap-2">
 									{screenshots.map((screenshot, i) => (

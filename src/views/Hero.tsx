@@ -12,7 +12,7 @@ export default function HeroSection() {
 	const age = useLiveAge();
 
 	return (
-		<section id="home" className="mx-auto max-w-160 space-y-4">
+		<section id="home" className="mx-auto max-w-162 space-y-4">
 			<div className="fade-in-up flex items-center gap-3" style={{ "--delay-index": 0 } as React.CSSProperties}>
 				<div className="relative h-12 w-12 shrink-0">
 					<img src="/images/ProfilePic.jpeg" alt="Profile" className="h-12 w-12 rounded-full object-cover" />

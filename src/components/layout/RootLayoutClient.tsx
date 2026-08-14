@@ -28,9 +28,9 @@ export function RootLayoutClient({ children, searchIndex }: RootLayoutClientProp
 			<ScrollBackground />
 			<Oneko />
 			<ResponsiveContainer>
-				<main className="p-8">
+				<main className="px-4">
 					<Navbar />
-					<div className="p-4" />
+					<div className="py-8" />
 					{children}
 					<CommandPalette items={searchIndex} />
 				</main>

@@ -64,8 +64,8 @@ export default function Skills() {
 	const carouselSkills = [...skills, ...skills];
 
 	return (
-		<section id="skills" className="mx-auto max-w-160 py-12">
-			<div className="slide-in-up mt-8 space-y-4">
+		<section id="skills" className="mx-auto max-w-160 py-8">
+			<div className="slide-in-up space-y-4">
 				{/* Row 1 */}
 				<div className="skills-carousel-outer fade-in-up" style={{ "--delay-index": 8 } as React.CSSProperties}>
 					<div className="skills-carousel-track animate-skills-carousel pause-on-hover">

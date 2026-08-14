@@ -22,7 +22,7 @@ export function CaseStudyCard({ study }: { study: CaseStudy }) {
 	const badges = study.stack.map((s) => STACK_TO_TECHNOLOGY[s]).filter((t): t is Technology => t !== undefined);
 
 	return (
-		<article className="flex flex-col gap-4 py-2">
+		<article className="flex flex-col gap-4 py-4">
 			{/* Title */}
 			<div className="space-y-1">
 				<div className="flex items-center gap-2">
