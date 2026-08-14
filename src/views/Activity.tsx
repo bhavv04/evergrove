@@ -5,8 +5,7 @@ import { SectionTitle } from "@/components/typography/SectionTitle";
 import { getSortedPostsMeta } from "@/lib/blog/posts";
 import { getLatestCommits, getLanguages } from "@/lib/activity/activity";
 import { PiPersonSimpleHikeBold } from "react-icons/pi";
-import TracksActivityCard from "@/components/activity/TracksActivityCard";
-import favoriteTracks from "@/lib/activity/tracks.json";
+import RotatingTracks from "@/components/activity/RotatingTracks";
 import PettableCat from "@/components/activity/PettableCat";
 
 export default async function Activity() {
@@ -24,16 +23,14 @@ export default async function Activity() {
 				}
 			/>
 
-			{/* Bento row: Github + Blog */}
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-2">
 				<GithubActivityCard commits={commits} languages={languages} />
 				<BlogActivityCard posts={posts} />
 			</div>
 
-			{/* Second row: Tracks (bigger) + Sprite + Recent Reads */}
 			<div className="mx-auto mt-2 grid grid-cols-1 items-start gap-2 md:grid-cols-7">
 				<div className="col-span-4">
-					<TracksActivityCard tracks={favoriteTracks} />
+					<RotatingTracks />
 				</div>
 				<div className="col-span-3 items-center justify-center">
 					<PettableCat />
