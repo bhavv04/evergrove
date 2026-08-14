@@ -92,8 +92,8 @@ export const projects: Project[] = [
 		id: "verrere",
 		rank: 4,
 		slug: "verrere",
-		title: "verrere",
-		tagline: "Tinder for books. Swipe right to build your shelf",
+		title: "Verrere",
+		tagline: "Discover your next read. Swipe right to build your bookshelf",
 		description:
 			"A full-stack book discovery platform built around a swipe-based interface. Browse personalized recommendations, build your reading list, and let the app learn your genre preferences while ensuring every recommendation is unique.",
 		tags: ["software engineering", "data engineering"],
@@ -113,7 +113,7 @@ export const projects: Project[] = [
 		title: "funes",
 		tagline: "Your machine's memory, queryable.",
 		description:
-			"A privacy-first, local-only daemon CLI tool that that builds a semantic index of your development history and indexes your files, notes, and terminal history into a vector database, allowing you to query your past work using natural language.",
+			"A privacy-first, local-only daemon CLI tool that builds a semantic index of your development history and indexes your files, notes, and terminal history into a vector database, allowing you to query your past work using natural language.",
 		tags: ["systems programming", "machine learning", "data engineering", "software engineering"],
 		tech: ["Rust", "Ollama", "SQLite", "cargo", "Tokio", "Clap", "Vector databases", "LLMs"],
 		status: "active",
@@ -137,8 +137,44 @@ export const projects: Project[] = [
 		status: "active",
 		year: 2026,
 		github: "https://github.com/bhavv04/ember",
-		image: "/images/projects/ember.png",
 		live: "https://myember.vercel.app/",
+		image: "/images/projects/ember.png",
+		featured: true,
+		hasCaseStudy: false
+	},
+	{
+		id: "quillith",
+		rank: 14,
+		slug: "quillith",
+		title: "Quillith",
+		tagline: "A place to write the story.",
+		description:
+			"A focused writing workspace built for authors, with tools for organizing chapters, developing characters, managing story structure, and keeping an entire manuscript in one place.",
+		tags: ["software engineering"],
+		tech: ["TypeScript", "Next.js", "React", "Tailwind CSS"],
+		status: "active",
+		year: 2026,
+		github: "",
+		live: "",
+		image: "/images/projects/quillith.png",
+		featured: false,
+		hasCaseStudy: false
+	},
+	{
+		id: "wattson",
+		rank: 11,
+		slug: "wattson",
+		title: "Wattson",
+		tagline: "Tuning GPU kernels for more than just speed.",
+		description:
+			"An energy-aware GPU kernel autotuner that explores the tradeoff between performance and power consumption, finding configurations that get more work done for less energy.",
+		tags: ["systems programming", "machine learning"],
+		tech: ["CUDA", "C++", "Python", "nvidia-smi", "GPU kernels", "Autotuning"],
+		status: "active",
+		year: 2026,
+		github: "",
+		live: "",
+		image: "/images/projects/wattson.png",
 		featured: true,
 		hasCaseStudy: false
 	},
@@ -161,7 +197,7 @@ export const projects: Project[] = [
 	},
 	{
 		id: "redis-c",
-		rank: 11,
+		rank: 13,
 		slug: "redis-c",
 		title: "Custom Redis",
 		tagline: "Redis, from scratch, in C.",
@@ -215,7 +251,7 @@ export const projects: Project[] = [
 		id: "solace",
 		rank: 5,
 		slug: "solace",
-		title: "solace",
+		title: "Solace",
 		tagline: "Predicting wildfire spread, not just visualizing it.",
 		description:
 			"A wildfire spread simulator implementing the Canadian Forest Fire Behaviour Prediction (FBP) System to model boreal forest fire growth from real weather, terrain, and fuel data, validated against the 2016 Fort McMurray wildfire.",
