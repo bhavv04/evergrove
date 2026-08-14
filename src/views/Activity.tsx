@@ -31,7 +31,7 @@ export default async function Activity() {
 			</div>
 
 			{/* Second row: Tracks (bigger) + Sprite + Recent Reads */}
-			<div className="mx-auto mt-2 grid grid-cols-1 items-start gap-4 md:grid-cols-7">
+			<div className="mx-auto mt-2 grid grid-cols-1 items-start gap-2 md:grid-cols-7">
 				<div className="col-span-4">
 					<TracksActivityCard tracks={favoriteTracks} />
 				</div>
