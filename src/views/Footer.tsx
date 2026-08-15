@@ -57,7 +57,7 @@ export default function Footer() {
 	};
 
 	return (
-		<footer className="mx-auto max-w-2xl text-white sm:p-6">
+		<footer className="mx-auto max-w-2xl px-2 pt-6 pb-24 text-white xl:pb-6">
 			<div className="space-y-12">
 				<div className="space-y-4">
 					<SectionTitle

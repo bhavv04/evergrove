@@ -7,7 +7,7 @@ import Footer from "@/views/Footer";
 
 export default function Home() {
 	return (
-		<div className="pb-24 xl:pb-0">
+		<div className="">
 			<HeroSection />
 			<div className="" />
 			<Skills />
@@ -17,7 +17,7 @@ export default function Home() {
 			<ResearchView />
 			<div className="my-12" />
 			<Activity />
-			<div className="my-24" />
+			<div className="my-16" />
 			<Footer />
 		</div>
 	);
