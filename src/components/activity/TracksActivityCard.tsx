@@ -63,7 +63,7 @@ export default function TracksActivityCard({ tracks }: { tracks: Track[] }) {
 				{tracks.map((track) => {
 					const isPlaying = playingId === track.id;
 					return (
-						<li key={track.id}>
+						<li key={track.id} className="min-w-0">
 							<button onClick={() => togglePlay(track)} className="group flex w-full items-center gap-3 rounded-lg py-2 text-left">
 								<div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-full">
 									<Image
