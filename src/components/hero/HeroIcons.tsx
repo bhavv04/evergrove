@@ -54,7 +54,7 @@ export function HeroChip({ label, value, className }: HeroChipProps) {
 	return (
 		<div className={cn("flex flex-col gap-px", className)}>
 			<span className="text-[10px] text-stone-400">{label}</span>
-			<span className="text-[13px] font-medium text-stone-100">{value}</span>
+			<span className="text-[13px] text-stone-100">{value}</span>
 		</div>
 	);
 }
