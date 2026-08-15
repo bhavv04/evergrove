@@ -21,7 +21,7 @@ export default function ProjectsView() {
 			/>
 
 			<Card>
-				<CardContent className="flex flex-col gap-8 p-6">
+				<CardContent className="flex flex-col gap-8 p-2">
 					{projects.map((project, i) => (
 						<div key={project.name} className="flex flex-col gap-8">
 							<ProjectShowcase project={project} direction={i % 2 === 0 ? "row-reverse" : "row"} />

@@ -28,7 +28,7 @@ export default async function Activity() {
 				<BlogActivityCard posts={posts} />
 			</div>
 
-			<div className="mx-auto grid grid-cols-1 items-start md:grid-cols-7">
+			<div className="mx-auto grid grid-cols-1 items-start gap-4 md:grid-cols-7">
 				<div className="col-span-4">
 					<RotatingTracks />
 				</div>

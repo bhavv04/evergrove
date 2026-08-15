@@ -189,7 +189,7 @@ export default function PettableCat() {
 	const visibleLog = state?.log.slice(0, MAX_VISIBLE_LOG) ?? [];
 
 	return (
-		<div className="relative flex h-full w-full flex-col overflow-hidden p-3">
+		<div className="relative flex h-full w-full flex-col overflow-hidden p-2">
 			<h3 className="mb-3 flex items-center gap-2 text-sm text-white/60">say hi</h3>
 
 			{/* Log */}

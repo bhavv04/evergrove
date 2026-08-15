@@ -21,7 +21,7 @@ export default function ResearchView() {
 			/>
 
 			<Card>
-				<CardContent className="flex flex-col px-4">
+				<CardContent className="flex flex-col px-3">
 					<div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
 						{caseStudies.map((study) => (
 							<CaseStudyCard key={study.id} study={study} />

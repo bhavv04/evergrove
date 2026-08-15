@@ -22,10 +22,10 @@ export function ProjectShowcase({ project, direction = "row" }: ProjectShowcaseP
 	const hasMultiple = screenshots.length > 1;
 
 	return (
-		<article className={cn("flex flex-col gap-6", direction === "row-reverse" ? "lg:flex-row-reverse" : "lg:flex-row")}>
+		<article className={cn("flex flex-col gap-8", direction === "row-reverse" ? "lg:flex-row-reverse" : "lg:flex-row")}>
 			{/* Screenshots */}
 			<div className="w-full lg:w-[55%]">
-				<div className="-mx-4 sm:p-4">
+				<div className="">
 					{/* Header */}
 					<div className="mb-4 flex items-center justify-between text-xs text-white/50">
 						<span>{name} screenshots</span>

@@ -54,7 +54,7 @@ export default function TracksActivityCard({ tracks }: { tracks: Track[] }) {
 	};
 
 	return (
-		<div className="p-3">
+		<div className="p-2">
 			<h3 className="mb-3 flex items-center gap-2 text-sm text-white/60">
 				<GoIssueTracks className="text-base" />
 				Recent Tracks

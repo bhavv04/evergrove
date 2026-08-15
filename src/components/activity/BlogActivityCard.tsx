@@ -10,7 +10,7 @@ interface BlogActivityCardProps {
 
 export default function BlogActivityCard({ posts }: BlogActivityCardProps) {
 	return (
-		<div className="flex h-full flex-col gap-3 p-3">
+		<div className="flex h-full flex-col gap-3 p-2">
 			<div className="flex items-center justify-between">
 				<h3 className="flex items-center gap-1.5 text-sm text-white/70">
 					<FaFilePen size={16} />
