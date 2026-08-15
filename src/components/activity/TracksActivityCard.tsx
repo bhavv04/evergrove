@@ -54,20 +54,17 @@ export default function TracksActivityCard({ tracks }: { tracks: Track[] }) {
 	};
 
 	return (
-		<div className="p-3 py-0.5">
+		<div className="p-3">
 			<h3 className="mb-3 flex items-center gap-2 text-sm text-white/60">
 				<GoIssueTracks className="text-base" />
 				Recent Tracks
 			</h3>
-			<ul className="grid gap-1.5 py-1 sm:grid-cols-2">
+			<ul className="grid gap-x-6 gap-y-1 py-1 sm:grid-cols-2">
 				{tracks.map((track) => {
 					const isPlaying = playingId === track.id;
 					return (
 						<li key={track.id}>
-							<button
-								onClick={() => togglePlay(track)}
-								className="group flex w-full items-center gap-3 rounded-lg px-1 py-2 text-left transition hover:bg-white/10"
-							>
+							<button onClick={() => togglePlay(track)} className="group flex w-full items-center gap-3 rounded-lg py-2 text-left">
 								<div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-full">
 									<Image
 										src={track.cover}
@@ -87,7 +84,7 @@ export default function TracksActivityCard({ tracks }: { tracks: Track[] }) {
 									<p className="truncate text-sm font-medium text-white">{track.title}</p>
 									<p className="truncate text-xs text-white/50">{track.artist}</p>
 								</div>
-								<span className="shrink-0 px-1 text-white/70 transition-colors group-hover:text-white">
+								<span className="shrink-0 rounded-full bg-white/90 p-2 text-black group-hover:bg-white/60">
 									{isPlaying ? <PiPauseFill size={18} /> : <PiPlayFill size={18} />}
 								</span>
 							</button>

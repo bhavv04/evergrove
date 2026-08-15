@@ -194,7 +194,7 @@ export default function PettableCat() {
 
 			{/* Log */}
 			<div className="relative flex-1 overflow-hidden pr-24 sm:pr-30">
-				<ul className="flex max-h-45 flex-col gap-1 text-3xs sm:text-xs">
+				<ul className="flex max-h-48 flex-col gap-1 text-2xs sm:text-xs">
 					{!visibleLog.length && <li className="text-white/40">no one&apos;s said hi yet</li>}
 					{visibleLog.map((e, i) => (
 						<li key={`${e.at}-${i}`} className={`flex items-center justify-between gap-2 ${LOG_COLOR[e.type]}`}>
@@ -208,7 +208,7 @@ export default function PettableCat() {
 			{/* Standing cat, tucked into the bottom-right corner */}
 			<div
 				onClick={pet}
-				className="group absolute right-2 bottom-5 flex flex-col items-center justify-end select-none"
+				className="group absolute right-0 bottom-2 flex flex-col items-center justify-end select-none"
 				title={overpetted ? "okay, that's enough" : isDizzy ? "keep going or let it recover" : "pet the cat"}
 			>
 				<span className="text-2xs text-white/40 opacity-0 transition-opacity group-hover:opacity-100">

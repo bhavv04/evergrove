@@ -12,13 +12,13 @@ export default function HeroSection() {
 	const age = useLiveAge();
 
 	return (
-		<section id="home" className="mx-auto max-w-162 space-y-4">
+		<section id="home" className="mx-auto max-w-160 space-y-4">
 			<div className="fade-in-up flex items-center gap-3" style={{ "--delay-index": 0 } as React.CSSProperties}>
 				<div className="relative h-12 w-12 shrink-0">
 					<img src="/images/ProfilePic.jpeg" alt="Profile" className="h-12 w-12 rounded-full object-cover" />
 					<span className="absolute right-1 bottom-2 h-3 w-3">🧸</span>
 				</div>
-				<SectionTitle className="mt-3" text="Hi, I'm Bhavdeep Arora" />
+				<SectionTitle text="Hi, I'm Bhavdeep Arora" />
 			</div>
 
 			<div className="fade-in-up" style={{ "--delay-index": 2 } as React.CSSProperties}>
@@ -49,8 +49,6 @@ export default function HeroSection() {
 					what I&apos;m currently up to:
 				</p>
 			</div>
-
-			<div className="fade-in-up" style={{ "--delay-index": 5 } as React.CSSProperties}></div>
 
 			<div className="fade-in-up" style={{ "--delay-index": 6 } as React.CSSProperties}>
 				<HeroBadges />

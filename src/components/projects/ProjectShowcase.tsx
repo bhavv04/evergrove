@@ -24,10 +24,10 @@ export function ProjectShowcase({ project, direction = "row" }: ProjectShowcaseP
 	return (
 		<article className={cn("flex flex-col gap-6", direction === "row-reverse" ? "lg:flex-row-reverse" : "lg:flex-row")}>
 			{/* Screenshots */}
-			<div className="w-full sm:mr-4 lg:w-[55%]">
+			<div className="w-full lg:w-[55%]">
 				<div className="-mx-4 sm:p-4">
 					{/* Header */}
-					<div className="mb-4 flex items-center justify-between px-1 text-xs text-white/50">
+					<div className="mb-4 flex items-center justify-between text-xs text-white/50">
 						<span>{name} screenshots</span>
 						{hasMultiple && (
 							<span>
@@ -48,7 +48,7 @@ export function ProjectShowcase({ project, direction = "row" }: ProjectShowcaseP
 						<CarouselContent>
 							{screenshots.map((screenshot, i) => (
 								<CarouselItem key={screenshot.name}>
-									<div className="overflow-hidden rounded-xl">
+									<div className="overflow-hidden rounded-lg">
 										<div className="relative aspect-16/10 w-full overflow-hidden">
 											<Image
 												src={screenshot.desktop.src}

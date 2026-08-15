@@ -6,7 +6,8 @@ export const caseStudies: CaseStudy[] = [
 		slug: "lacunae",
 		title: "Lacunae",
 		subtitle: "Accelerated MRI Reconstruction from Undersampled K-Space via U-Net",
-		tagline: "U-Net that reconstructs full MRI scans from 25% of the frequency data.",
+		tagline:
+			"Empirical study comparing k-space sampling patterns for accelerated MRI reconstruction across acceleration factors using a U-Net on fastMRI knee data.",
 		status: "completed",
 		tags: ["artificial-intelligence", "medicine", "mathematics"],
 		year: 2025,

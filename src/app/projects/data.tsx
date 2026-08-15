@@ -24,9 +24,9 @@ export const projects: Project[] = [
 		title: "groat",
 		tagline: "Every token counts.",
 		description:
-			"A self-hosted LLM proxy that reduces API costs through semantic response caching and intelligent model routing, providing a drop-in OpenAI-compatible endpoint that requires no changes to existing applications.",
+			"Cut your LLM API bill without changing your code. Self-hosted proxy with semantic caching and smart model routing. Point it at your existing LLM-compatible client and watch the tokens come down.",
 		tags: ["systems programming", "machine learning"],
-		tech: ["Rust", "Tokio", "OpenAI-compatible APIs", "Vector databases", "Embeddings", "LLMs"],
+		tech: ["Rust", "Tokio", "LLM-compatible APIs", "Vector databases", "Embeddings", "LLMs", "SQL", "Typescript"],
 		status: "active",
 		year: 2026,
 		github: "https://github.com/bhavv04/groat",

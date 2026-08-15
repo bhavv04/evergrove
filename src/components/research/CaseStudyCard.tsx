@@ -25,14 +25,12 @@ export function CaseStudyCard({ study }: { study: CaseStudy }) {
 		<article className="flex flex-col gap-4 py-4">
 			{/* Title */}
 			<div className="space-y-1">
-				<div className="flex items-center gap-2">
-					<h3 className="text-4xl">{study.title}</h3>
-				</div>
+				<h3 className="text-4xl">{study.title}</h3>
 				<p className="text-sm text-white/50">{study.subtitle}</p>
 			</div>
 
 			{/* Summary */}
-			<p className="max-w-xl text-sm text-white/70">{study.tagline}</p>
+			<p className="text-sm text-white/70">{study.tagline}</p>
 
 			{/* Tech badges */}
 			{badges.length > 0 && (
@@ -48,7 +46,7 @@ export function CaseStudyCard({ study }: { study: CaseStudy }) {
 				<ul className="space-y-1.5 text-sm">
 					{study.highlights.map((h) => (
 						<li key={h} className="flex items-start gap-2">
-							<span className="shrink-0 text-white/70">{`❀ `}</span>
+							<span className="shrink-0 text-white/70">❀</span>
 							<span className="text-white/70">{h}</span>
 						</li>
 					))}

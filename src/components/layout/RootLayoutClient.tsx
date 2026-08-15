@@ -27,15 +27,16 @@ export function RootLayoutClient({ children, searchIndex }: RootLayoutClientProp
 		<CatProvider>
 			<ScrollBackground />
 			<Oneko />
+			<div className="py-8">
+				<MusicWidget />
+			</div>
 			<ResponsiveContainer>
-				<main className="px-4">
+				<main className="overflow-x-hidden px-4">
 					<Navbar />
-					<div className="py-8" />
 					{children}
 					<CommandPalette items={searchIndex} />
 				</main>
 			</ResponsiveContainer>
-			<MusicWidget />
 			<SearchTrigger />
 			<Analytics />
 		</CatProvider>

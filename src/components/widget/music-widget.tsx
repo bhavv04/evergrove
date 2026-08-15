@@ -103,7 +103,7 @@ export function MusicWidget() {
 	const progressPct = duration > 0 ? (position / duration) * 100 : 0;
 
 	return (
-		<div ref={containerRef} className="fixed top-6 right-3 z-50 lg:right-auto lg:left-4">
+		<div ref={containerRef} className="fixed top-4 right-3 z-50 lg:left-3">
 			<div className="relative h-11 w-44">
 				<AnimatePresence initial={false} mode="popLayout">
 					{!isExpanded ? (

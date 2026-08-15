@@ -34,7 +34,7 @@ export function ProjectGrid({ projects }: ProjectGridProps) {
 	const isInitialLoad = seenIds.current.size === 0;
 
 	return (
-		<div key={visitId.current} ref={containerRef} className="mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+		<div key={visitId.current} ref={containerRef} className="mx-auto grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
 			{ordered.map((project, i) => {
 				const alreadySeen = seenIds.current.has(project.id);
 				if (!alreadySeen) seenIds.current.add(project.id);

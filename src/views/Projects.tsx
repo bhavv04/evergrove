@@ -10,7 +10,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function ProjectsView() {
 	return (
-		<section id="projects" className="mx-auto">
+		<section id="projects" className="w-full">
 			<SectionTitle
 				text={
 					<span className="fade-in-up flex items-center gap-2 text-3xl" style={{ "--delay-index": 8 } as React.CSSProperties}>
@@ -23,7 +23,7 @@ export default function ProjectsView() {
 			<Card>
 				<CardContent className="flex flex-col gap-8 p-6">
 					{projects.map((project, i) => (
-						<div key={`project-${project.name}`} className="flex flex-col gap-8">
+						<div key={project.name} className="flex flex-col gap-8">
 							<ProjectShowcase project={project} direction={i % 2 === 0 ? "row-reverse" : "row"} />
 							{i !== projects.length - 1 && <Separator />}
 						</div>

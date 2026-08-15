@@ -18,7 +18,7 @@ function LanguageBar({ languages }: { languages: LanguageStat[] }) {
 	if (languages.length === 0) return null;
 
 	return (
-		<div className="flex h-1.5 w-full gap-px overflow-visible rounded-full">
+		<div className="flex h-1.5 w-full overflow-visible rounded-full">
 			{languages.map((lang) => (
 				<div
 					key={lang.name}

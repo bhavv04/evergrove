@@ -5,8 +5,6 @@ import ResearchFilter from "@/app/research/components/filter";
 export default function ResearchPage() {
 	return (
 		<main className="min-h-screen pb-16">
-			{" "}
-			{/* pb is for navbar for mobile */}
 			{/* Header */}
 			<div className="">
 				<SectionTitle

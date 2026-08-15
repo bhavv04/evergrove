@@ -14,21 +14,17 @@ import {
 	SiNextdotjs,
 	SiSqlite,
 	SiRust,
-	SiFirebase
+	SiFirebase,
+	SiPytorch
 } from "react-icons/si";
 
 import { IoLogoVercel } from "react-icons/io5";
 import { FaGolang } from "react-icons/fa6";
-import { SiPytorch } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 
 const skills = [
 	{ name: "React.js", icon: <FaReact className="text-2xl text-cyan-400" /> },
-	{
-		name: "Javascript",
-		icon: <FaJsSquare className="text-2xl text-yellow-300" />,
-		badgeClass: "bg-yellow-300 text-black"
-	},
+	{ name: "Javascript", icon: <FaJsSquare className="text-2xl text-yellow-300" />, badgeClass: "bg-yellow-300 text-black" },
 	{ name: "MongoDB", icon: <DiMongodb className="text-2xl text-green-500" /> },
 	{ name: "Supabase", icon: <SiSupabase className="text-2xl text-green-400" /> },
 	{ name: "Figma", icon: <FaFigma className="text-2xl text-zinc-100" /> },
@@ -36,11 +32,7 @@ const skills = [
 	{ name: "Clerk", icon: <SiClerk className="text-2xl text-purple-400" /> },
 	{ name: "Express", icon: <SiExpress className="text-2xl text-green-500" /> },
 	{ name: "TailwindCSS", icon: <SiTailwindcss className="text-2xl text-cyan-300" /> },
-	{
-		name: "Redis",
-		icon: <SiRedis className="text-2xl text-red-500" />,
-		badgeClass: "bg-zinc-800 text-red-400"
-	},
+	{ name: "Redis", icon: <SiRedis className="text-2xl text-red-500" />, badgeClass: "bg-zinc-800 text-red-400" },
 	{ name: "PyTorch", icon: <SiPytorch className="text-2xl text-orange-400" /> },
 	{ name: "Go", icon: <FaGolang className="text-2xl text-blue-500" /> },
 	{ name: "Vercel", icon: <IoLogoVercel className="text-2xl text-white" /> },
@@ -60,58 +52,36 @@ const skills = [
 	{ name: "Git", icon: <FaGitAlt className="text-2xl text-orange-400" /> }
 ];
 
+const badgeBase = "flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-800/80 px-4 py-3 text-base text-zinc-100 shadow-xs";
+
+function SkillRow({ items, rowKey, animation }: { items: typeof skills; rowKey: string; animation: string }) {
+	return (
+		<div className={`skills-carousel-track ${animation} pause-on-hover`}>
+			{items.map((skill, idx) => (
+				<span key={skill.name + rowKey + idx} className={`${badgeBase} ${skill.badgeClass ?? ""}`}>
+					{skill.icon}
+					{skill.name}
+				</span>
+			))}
+		</div>
+	);
+}
+
 export default function Skills() {
 	const carouselSkills = [...skills, ...skills];
+	const reversedSkills = [...carouselSkills].reverse();
 
 	return (
 		<section id="skills" className="mx-auto max-w-160 py-8">
 			<div className="slide-in-up space-y-4">
-				{/* Row 1 */}
 				<div className="skills-carousel-outer fade-in-up" style={{ "--delay-index": 8 } as React.CSSProperties}>
-					<div className="skills-carousel-track animate-skills-carousel pause-on-hover">
-						{carouselSkills.map((skill, idx) => (
-							<span
-								key={skill.name + "row1" + idx}
-								className={`flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-800/80 px-4 py-3 text-base text-zinc-100 shadow-xs ${skill.badgeClass ? skill.badgeClass : ""} `}
-							>
-								{skill.icon}
-								{skill.name}
-							</span>
-						))}
-					</div>
+					<SkillRow items={carouselSkills} rowKey="row1" animation="animate-skills-carousel" />
 				</div>
-
-				{/* Row 2: right to left */}
 				<div className="skills-carousel-outer fade-in-up" style={{ "--delay-index": 9 } as React.CSSProperties}>
-					<div className="skills-carousel-track animate-skills-carousel-reverse pause-on-hover">
-						{carouselSkills.map((skill, idx) => (
-							<span
-								key={skill.name + "row2" + idx}
-								className={`flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-800/80 px-4 py-3 text-base text-zinc-100 shadow-xs ${skill.badgeClass ? skill.badgeClass : ""} `}
-							>
-								{skill.icon}
-								{skill.name}
-							</span>
-						))}
-					</div>
+					<SkillRow items={carouselSkills} rowKey="row2" animation="animate-skills-carousel-reverse" />
 				</div>
-
-				{/* Row 3: left to right */}
 				<div className="skills-carousel-outer fade-in-up" style={{ "--delay-index": 10 } as React.CSSProperties}>
-					<div className="skills-carousel-track animate-skills-carousel pause-on-hover">
-						{carouselSkills
-							.slice()
-							.reverse()
-							.map((skill, idx) => (
-								<span
-									key={skill.name + "row3" + idx}
-									className={`flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-800/80 px-4 py-3 text-base text-zinc-100 shadow-xs ${skill.badgeClass ? skill.badgeClass : ""} `}
-								>
-									{skill.icon}
-									{skill.name}
-								</span>
-							))}
-					</div>
+					<SkillRow items={reversedSkills} rowKey="row3" animation="animate-skills-carousel" />
 				</div>
 			</div>
 		</section>
