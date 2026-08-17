@@ -1,4 +1,5 @@
 import { recentReads } from "@/lib/reading/status";
+import { BookOpen } from "lucide-react";
 
 function timeAgo(dateStr: string) {
 	const days = Math.floor((Date.now() - new Date(dateStr).getTime()) / 86400000);
@@ -23,7 +24,9 @@ function Stars({ rating }: { rating: number }) {
 export default function RecentReads() {
 	return (
 		<div className="flex h-full w-full flex-col px-2">
-			<h3 className="mb-4 flex items-center gap-2 text-sm text-white/60">recent reads</h3>
+			<h3 className="mb-4 flex items-center gap-1.5 text-sm text-white/70">
+				<BookOpen size={16} /> Recent reads
+			</h3>
 
 			<div className="flex flex-1 flex-col justify-center gap-2">
 				{recentReads.map((book, i) => (

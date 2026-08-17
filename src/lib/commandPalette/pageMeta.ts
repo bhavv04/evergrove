@@ -1,4 +1,4 @@
-import { Home, User, FolderRoot, Microscope, PencilLine, BriefcaseBusiness } from "lucide-react";
+import { Home, User, FolderRoot, Microscope, PencilLine } from "lucide-react";
 import type { SearchItem } from "@/lib/search/getSearchIndex";
 
 export const TYPE_TO_GROUP: Record<SearchItem["type"], string> = {
@@ -34,10 +34,6 @@ export const PAGE_META: { href: string; meta: PageMeta }[] = [
 	{
 		href: "/about",
 		meta: { label: "About", description: "Background, skills, and how I work", icon: User }
-	},
-	{
-		href: "/timeline",
-		meta: { label: "Experience & Education", description: "Where I've worked and studied", icon: BriefcaseBusiness }
 	},
 	{ href: "/projects", meta: { label: "Projects", description: "Things I've built and shipped", icon: FolderRoot } },
 	{ href: "/research", meta: { label: "Research", description: "Papers, experiments, and write-ups", icon: Microscope } },

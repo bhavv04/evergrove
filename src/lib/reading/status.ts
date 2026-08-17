@@ -3,7 +3,7 @@ export interface ReadEntry {
 	author: string;
 	finishedAt: string;
 	coverUrl?: string;
-	rating?: number; // 1-5
+	rating?: number;
 }
 
 export const recentReads: ReadEntry[] = [

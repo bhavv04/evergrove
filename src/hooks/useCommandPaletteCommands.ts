@@ -2,7 +2,9 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Mail, Github, Linkedin, FileText, Play, Pause } from "lucide-react";
+import { Mail, FileText, Play, Pause } from "lucide-react";
+import { FiGithub } from "react-icons/fi";
+import { FaLinkedinIn } from "react-icons/fa6";
 import type { SearchItem } from "@/lib/search/getSearchIndex";
 import { PaletteCommand, GROUP_ORDER } from "@/lib/commandPalette/types";
 import { TYPE_TO_GROUP, TYPE_ICON, PAGE_ICON } from "@/lib/commandPalette/pageMeta";
@@ -76,14 +78,14 @@ export function useCommandPaletteCommands(items: SearchItem[], query: string, sh
 				id: "github",
 				label: "GitHub",
 				group: "Connect",
-				icon: Github,
+				icon: FiGithub,
 				perform: () => go("https://github.com/bhavv04")
 			},
 			{
 				id: "linkedin",
 				label: "LinkedIn",
 				group: "Connect",
-				icon: Linkedin,
+				icon: FaLinkedinIn,
 				perform: () => go("https://linkedin.com/in/bhavdeeparora")
 			},
 			{

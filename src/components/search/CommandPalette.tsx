@@ -114,7 +114,9 @@ export function CommandPalette({ items }: { items: SearchItem[] }) {
 						>
 							{currentPage && (
 								<div className="flex items-center gap-2 border-b border-white/10 px-3 py-2">
-									<currentPage.icon size={24} className="shrink-0 text-white/40" />
+									<div className="flex shrink-0 items-center justify-center rounded-lg bg-stone-700 p-1.5">
+										<currentPage.icon size={16} className="text-white/70" />
+									</div>
 									<div className="min-w-0 flex-1 leading-tight">
 										<p className="truncate text-xs font-medium text-white">{currentPage.label}</p>
 										<p className="truncate text-2xs text-white/40">{currentPage.description}</p>

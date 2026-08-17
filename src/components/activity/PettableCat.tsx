@@ -190,7 +190,7 @@ export default function PettableCat() {
 
 	return (
 		<div className="relative flex h-full w-full flex-col overflow-hidden p-2">
-			<h3 className="mb-3 flex items-center gap-2 text-sm text-white/60">say hi</h3>
+			<h3 className="mb-3 flex items-center gap-2 text-sm text-white/70">say hi ฅᨐฅ</h3>
 
 			{/* Log */}
 			<div className="relative flex-1 overflow-hidden pr-24 sm:pr-30">

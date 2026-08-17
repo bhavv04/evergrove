@@ -65,10 +65,10 @@ function readMarkdownDir({ dir, urlPrefix, type, allowedSlugs }: (typeof CONTENT
 }
 
 const staticPages: SearchItem[] = [
-	{ id: "home", title: "Home", description: "", url: "/", type: "page", icon: "home" },
-	{ id: "projects-page", title: "Projects", description: "", url: "/projects", type: "page", icon: "projects" },
-	{ id: "research-page", title: "Research", description: "", url: "/research", type: "page", icon: "research" },
-	{ id: "blog-page", title: "Notes", description: "", url: "/blog", type: "page", icon: "blog" }
+	{ id: "home", title: "Go to Home", description: "", url: "/", type: "page", icon: "home" },
+	{ id: "projects-page", title: "Go to Projects", description: "", url: "/projects", type: "page", icon: "projects" },
+	{ id: "research-page", title: "Go to Research", description: "", url: "/research", type: "page", icon: "research" },
+	{ id: "blog-page", title: "Go to Writing", description: "", url: "/blog", type: "page", icon: "blog" }
 ];
 
 export function getSearchIndex(): SearchItem[] {

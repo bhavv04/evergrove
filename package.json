@@ -11,6 +11,7 @@
 	},
 	"dependencies": {
 		"@emailjs/browser": "^4.4.1",
+		"@icons-pack/react-simple-icons": "^13.15.1",
 		"@mdx-js/loader": "^3.1.0",
 		"@mdx-js/react": "^3.1.0",
 		"@next/mdx": "^15.1.0",
@@ -29,7 +30,7 @@
 		"framer-motion": "^13.0.0",
 		"gray-matter": "^4.0.3",
 		"katex": "^0.17.0",
-		"lucide-react": "^0.511.0",
+		"lucide-react": "^1.31.0",
 		"next": "^14.2.35",
 		"react": "^18",
 		"react-activity-calendar": "^3.2.1",

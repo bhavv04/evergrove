@@ -14,7 +14,7 @@ export default function BlogActivityCard({ posts }: BlogActivityCardProps) {
 			<div className="flex items-center justify-between">
 				<h3 className="flex items-center gap-1.5 text-sm text-white/70">
 					<FaFilePen size={16} />
-					Latest Posts
+					Latest posts
 				</h3>
 				<Link href="/blog" className="group inline-flex items-center gap-1 text-sm text-white/50 transition-colors hover:text-white">
 					Read all Posts

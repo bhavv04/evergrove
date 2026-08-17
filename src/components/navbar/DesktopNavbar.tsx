@@ -9,7 +9,7 @@ import { Home, User, BriefcaseBusiness, Wrench, Microscope, PencilLine, Coffee }
 const navItems = [
 	{ href: "/", label: "Home", icon: Home, useClientSideRouting: true },
 	{ href: "/about", label: "About", icon: User, useClientSideRouting: true },
-	{ href: "/timeline", label: "Experiences & Education", icon: BriefcaseBusiness, useClientSideRouting: false },
+	{ href: "/timeline", label: "Experiences & Education", icon: BriefcaseBusiness, useClientSideRouting: true },
 	null,
 	{ href: "/projects", label: "Projects", icon: Wrench, useClientSideRouting: true },
 	{ href: "/research", label: "Research", icon: Microscope, useClientSideRouting: true },

@@ -119,7 +119,7 @@ function TimelineItem({ title, subtitle, meta, index, children }: TimelineItemPr
 	}, []);
 
 	return (
-		<div ref={ref} className="relative mb-8 pl-10">
+		<div ref={ref} className="relative mb-8 pl-8">
 			{/* Dot */}
 			<span className="absolute top-2 left-0 h-3 w-3 rounded-full bg-olive-500" />
 
