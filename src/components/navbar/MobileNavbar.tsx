@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 const navItems = [
 	{ href: "/", label: "Home", icon: Home, useClientSideRouting: true },
 	{ href: "/about", label: "About", icon: User, useClientSideRouting: true },
-	{ href: "/timeline", label: "Experiences & Education", icon: BriefcaseBusiness, useClientSideRouting: false },
+	{ href: "/timeline", label: "Experiences & Education", icon: BriefcaseBusiness, useClientSideRouting: true },
 	null,
 	{ href: "/projects", label: "Projects", icon: Wrench, useClientSideRouting: true },
 	{ href: "/research", label: "Research", icon: Microscope, useClientSideRouting: true },
@@ -85,7 +85,7 @@ function NavbarIconButton({
 	icon: Icon,
 	isActive = false,
 	openInNewTab = false,
-	useClientSideRouting = false
+	useClientSideRouting = true
 }: {
 	href: string;
 	label: string;
