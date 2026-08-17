@@ -1,7 +1,7 @@
 // scripts/generate-tracks.ts
 import { writeFileSync } from "fs";
 import { Vibrant } from "node-vibrant/node";
-import { favoriteSongs } from "@/lib/activity/favorites";
+import { favoriteSongs } from "@/lib/widget/songs";
 
 interface ITunesResult {
 	trackId: number;
