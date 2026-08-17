@@ -166,8 +166,7 @@ export const projects: Project[] = [
 		slug: "wattson",
 		title: "Wattson",
 		tagline: "Tuning GPU kernels for more than just speed.",
-		description:
-			"An energy-aware GPU kernel autotuner that explores the tradeoff between performance and power consumption, finding configurations that get more work done for less energy.",
+		description: "An energy-aware GPU kernel tuner that looks beyond raw speed to find configurations that get more work done for less power.",
 		tags: ["systems programming", "machine learning"],
 		tech: ["CUDA", "C++", "Python", "nvidia-smi", "GPU kernels", "Autotuning"],
 		status: "active",
