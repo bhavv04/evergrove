@@ -1,11 +1,10 @@
-// @/views/Activity.tsx
 import BlogActivityCard from "@/components/activity/BlogActivityCard";
 import GithubActivityCard from "@/components/activity/GithubActivityCard";
 import { SectionTitle } from "@/components/typography/SectionTitle";
 import { getSortedPostsMeta } from "@/lib/blog/posts";
 import { getLatestCommits, getLanguages } from "@/lib/activity/activity";
 import { PiPersonSimpleHikeBold } from "react-icons/pi";
-import RotatingTracks from "@/components/activity/RotatingTracks";
+import RecentReads from "@/components/activity/RecentReads";
 import PettableCat from "@/components/activity/PettableCat";
 
 export default async function Activity() {
@@ -28,9 +27,9 @@ export default async function Activity() {
 				<BlogActivityCard posts={posts} />
 			</div>
 
-			<div className="mx-auto grid grid-cols-1 items-start gap-4 md:grid-cols-7">
+			<div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-7">
 				<div className="col-span-4">
-					<RotatingTracks />
+					<RecentReads />
 				</div>
 				<div className="col-span-3">
 					<PettableCat />

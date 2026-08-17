@@ -5,7 +5,7 @@ import { useRef, useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence, useReducedMotion, type Transition } from "framer-motion";
 import { useAudioPlayer } from "@/lib/audio/useAudioPlayer";
 import { Play, Pause, SkipBack, SkipForward, Volume2, VolumeX } from "lucide-react";
-import outerWildsTracks from "@/lib/widget/outer-wilds-tracks.json";
+import songs from "@/lib/widget/songs.json";
 
 function shuffleArray<T>(arr: T[]): T[] {
 	const copy = [...arr];
@@ -51,7 +51,7 @@ export function MusicWidget() {
 	const progressRef = useRef<HTMLDivElement>(null);
 	const shouldReduceMotion = useReducedMotion();
 
-	const [shuffledTracks] = useState(() => shuffleArray(outerWildsTracks));
+	const [shuffledTracks] = useState(() => shuffleArray(songs));
 	const { currentTrack, isPlaying, position, duration, volume, togglePlay, nextTrack, previousTrack, setVolume, seekTo } = useAudioPlayer(shuffledTracks);
 
 	useEffect(() => {

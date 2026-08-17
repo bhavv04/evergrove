@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { usePathname } from "next/navigation";
 import { Project } from "@/app/projects/model";
 import { ProjectCard } from "./projectcard";
-import { useFlip } from "@/components/hooks/use-flip";
+import { useFlip } from "@/hooks/use-flip";
 
 interface ProjectGridProps {
 	projects: Project[];

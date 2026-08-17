@@ -55,7 +55,7 @@ async function getRecentRepos(): Promise<GithubRepo[]> {
 
 async function getLatestCommits(): Promise<Commit[]> {
 	const repos = await getRecentRepos();
-	const topRepos = repos.slice(0, 5);
+	const topRepos = repos.slice(0, 6);
 
 	const commitPromises = topRepos.map(async (repo) => {
 		const res = await fetch(`https://api.github.com/repos/${GITHUB_USER}/${repo.name}/commits?per_page=1`, { next: { revalidate: 3600 } });
@@ -112,7 +112,7 @@ async function getLanguages(): Promise<LanguageStat[]> {
 	return filteredEntries
 		.map(([name, bytes]) => ({
 			name,
-			percent: Math.round((bytes / totalBytes) * 1000) / 10, // one decimal
+			percent: Math.round((bytes / totalBytes) * 1000) / 10,
 			color: LANGUAGE_COLORS[name] ?? FALLBACK_COLOR
 		}))
 		.sort((a, b) => b.percent - a.percent);

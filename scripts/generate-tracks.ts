@@ -122,7 +122,7 @@ async function run() {
 		await new Promise((r) => setTimeout(r, 300));
 	}
 
-	writeFileSync("./src/lib/activity/tracks.json", JSON.stringify(tracks, null, 2));
+	writeFileSync("./src/lib/widget/songs.json", JSON.stringify(tracks, null, 2));
 	console.log(`\nSaved ${tracks.length}/${favoriteSongs.length} tracks to tracks.json`);
 }
 

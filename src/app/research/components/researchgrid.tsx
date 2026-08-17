@@ -4,7 +4,7 @@
 import { useRef } from "react";
 import { CaseStudy } from "@/app/research/model";
 import ResearchCard from "@/app/research/components/researchcard";
-import { useFlip } from "@/components/hooks/use-flip";
+import { useFlip } from "@/hooks/use-flip";
 
 interface ResearchGridProps {
 	studies: CaseStudy[];
