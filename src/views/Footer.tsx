@@ -155,15 +155,13 @@ export default function Footer() {
 
 				<div className="text-right text-sm text-zinc-500">&copy; {new Date().getFullYear()} Bhavdeep Arora.</div>
 
-				{/* Calvin & Hobbes quote */}
 				{quote && (
-					<div className="text-left">
+					<div className="max-w-xl text-left">
 						<p className="text-xs text-gray-600">&ldquo;{quote.quoteText}&rdquo;</p>
 						<p className="mt-1 text-xs text-gray-600">- {quote.quoteAuthor}</p>
 					</div>
 				)}
 			</div>
-
 			<Toaster position="bottom-right" reverseOrder={true} />
 		</footer>
 	);
