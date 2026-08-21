@@ -111,18 +111,9 @@ export default function ResearchFilter() {
 				{hasFilters && (
 					<button
 						onClick={clearAll}
-						className="group relative inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium text-white/80 transition-all duration-300 ease-in-out hover:text-white"
+						className="group relative inline-flex items-center gap-1.5 rounded-md px-2 text-xs text-white/80 transition-all duration-300 ease-in-out hover:text-white"
 					>
 						<span>Clear all</span>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							className="h-3.5 w-3.5 transition-transform group-hover:rotate-90"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-						</svg>
 					</button>
 				)}
 			</div>

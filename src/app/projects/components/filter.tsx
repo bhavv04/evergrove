@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { ProjectTag } from "@/app/projects/model";
 
 interface FilterProps {
@@ -10,17 +9,11 @@ interface FilterProps {
 }
 
 export function Filter({ tags, selected, onChange }: FilterProps) {
-	const [clearExiting, setClearExiting] = useState(false);
-
 	const toggle = (tag: ProjectTag) => {
 		const next = new Set(selected);
 		if (next.has(tag)) next.delete(tag);
 		else next.add(tag);
 		onChange(next);
-	};
-
-	const handleClear = () => {
-		setClearExiting(true);
 	};
 
 	return (
@@ -43,25 +36,10 @@ export function Filter({ tags, selected, onChange }: FilterProps) {
 
 			{selected.size > 0 && (
 				<button
-					onClick={() => {
-						handleClear();
-						onChange(new Set());
-					}}
-					onAnimationEnd={() => setClearExiting(false)}
-					className={`group relative inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium text-white/80 transition-all duration-300 ease-in-out hover:text-white ${
-						clearExiting ? "scale-out" : "scale-in"
-					}`}
+					onClick={() => onChange(new Set())}
+					className="group relative inline-flex items-center gap-1.5 rounded-md px-2 text-xs text-white/80 transition-all duration-300 ease-in-out hover:text-white"
 				>
 					<span>Clear all</span>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						className="h-3.5 w-3.5 transition-transform group-hover:rotate-90"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-					>
-						<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-					</svg>
 				</button>
 			)}
 		</div>

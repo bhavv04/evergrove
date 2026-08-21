@@ -101,6 +101,10 @@
 	}
 }
 
+html {
+	scrollbar-gutter: stable;
+}
+
 @layer base {
 	html,
 	body {
@@ -251,7 +255,6 @@
 	/* margin left to difference thew width of scrollbar*/
 	body {
 		@apply bg-background text-foreground;
-		@apply lg:ml-8;
 	}
 }
 
@@ -379,23 +382,23 @@
 	color: var(--color-prettylights-syntax-constant-other-reference-link);
 }
 
-body::-webkit-scrollbar {
+html::-webkit-scrollbar {
 	width: 8px;
 	height: 8px;
 }
 
-body::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb {
 	background: rgba(255, 255, 255, 0.2);
 	border-radius: 4px;
 	border: none;
 }
 
-body::-webkit-scrollbar-track {
+html::-webkit-scrollbar-track {
 	background: rgba(0, 0, 0, 0.1);
 	border-radius: 4px;
 }
 
-body::-webkit-scrollbar-thumb:hover {
+html::-webkit-scrollbar-thumb:hover {
 	background: rgba(255, 255, 255, 0.4);
 }
 
