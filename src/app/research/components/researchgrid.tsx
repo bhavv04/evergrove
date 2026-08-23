@@ -44,11 +44,11 @@ export function ResearchGrid({ studies }: ResearchGridProps) {
 	}, [studies, columnCount]);
 
 	if (studies.length === 0) {
-		return <p className="scale-in text-sm text-white">no projects match the selected filters.</p>;
+		return <p className="scale-in mt-16 text-center text-sm">no projects match the selected filters.</p>;
 	}
 
 	return (
-		<div ref={containerRef} className="grid grid-cols-1 items-start gap-3 lg:grid-cols-2">
+		<div ref={containerRef} className="mx-auto grid grid-cols-1 items-start gap-3 lg:grid-cols-2">
 			{columns.map((col, colIdx) => (
 				<div key={colIdx} className="flex flex-col gap-3">
 					{col.map(({ study, originalIndex }) => {

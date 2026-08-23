@@ -91,7 +91,7 @@ export default function ResearchFilter() {
 			</div>
 
 			{/* Tag filters */}
-			<div className="mb-6 flex flex-wrap gap-2">
+			<div className="mb-4 flex flex-wrap gap-2">
 				{usedTags.map((tag, i) => {
 					const active = selectedTags.has(tag);
 					return (

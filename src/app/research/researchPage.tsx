@@ -4,7 +4,7 @@ import ResearchFilter from "@/app/research/components/filter";
 
 export default function ResearchPage() {
 	return (
-		<main className="min-h-screen pb-16">
+		<main className="min-h-screen pb-24">
 			{/* Header */}
 			<div className="">
 				<SectionTitle
