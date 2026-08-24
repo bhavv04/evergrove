@@ -99,7 +99,7 @@ export const projects: Project[] = [
 		live: "https://verrere.vercel.app/",
 		image: "/images/projects/verrere.png",
 		featured: true,
-		hasCaseStudy: true
+		hasCaseStudy: false
 	},
 	{
 		id: "funes",
