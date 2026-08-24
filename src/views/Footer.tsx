@@ -4,6 +4,7 @@ import { SectionTitle } from "@/components/typography/SectionTitle";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import { GiCoffeeMug } from "react-icons/gi";
+import Script from "next/script";
 
 export default function Footer() {
 	const formRef = useRef<HTMLFormElement>(null);
@@ -161,8 +162,17 @@ export default function Footer() {
 						<p className="mt-1 text-xs text-gray-600">- {quote.quoteAuthor}</p>
 					</div>
 				)}
+
+				<div
+					data-webring="ca"
+					data-member="bhavdeep-arora"
+					className="flex justify-end"
+					style={{ "--webring-color": "#71717a" } as React.CSSProperties}
+				/>
 			</div>
+
 			<Toaster position="bottom-right" reverseOrder={true} />
+			<Script src="https://webring.ca/embed.js" strategy="lazyOnload" />
 		</footer>
 	);
 }
