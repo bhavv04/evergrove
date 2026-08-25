@@ -149,6 +149,11 @@ export function ProjectShowcase({ project, direction = "row" }: ProjectShowcaseP
 							</Link>
 						</Button>
 					)}
+					{project.hasCaseStudy && (
+						<Button asChild variant="default" className="">
+							<Link href={`/projects/${project.slug}`}>See more ⤳</Link>
+						</Button>
+					)}
 				</div>
 			</div>
 		</article>

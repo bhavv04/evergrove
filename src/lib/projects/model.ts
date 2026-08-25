@@ -22,6 +22,8 @@ export interface ProjectDetails {
 		github?: string;
 		live?: string;
 	};
+	hasCaseStudy?: boolean;
+	slug?: string;
 	screenshots: ProjectScreenshot[];
 }
 

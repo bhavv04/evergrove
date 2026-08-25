@@ -16,68 +16,35 @@ export const projects: Project[] = [
 			github: "https://github.com/bhavv04/thunderhead",
 			live: "https://getthunderhead.vercel.app/"
 		},
+		hasCaseStudy: true,
+		slug: "thunderhead",
 		screenshots: [
 			{
 				name: "Thunderhead Overview",
-				mobile: {
-					src: "/images/thunderhead/thunderhead1.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/thunderhead/thunderhead1.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/thunderhead/thunderhead1.png", width: 800, height: 640 },
+				desktop: { src: "/images/thunderhead/thunderhead1.png", width: 800, height: 640 }
 			},
 			{
 				name: "Thunderhead Scoring",
-				mobile: {
-					src: "/images/thunderhead/thunderhead2.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/thunderhead/thunderhead2.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/thunderhead/thunderhead2.png", width: 800, height: 640 },
+				desktop: { src: "/images/thunderhead/thunderhead2.png", width: 800, height: 640 }
 			},
 			{
 				name: "Thunderhead Config",
-				mobile: {
-					src: "/images/thunderhead/thunderhead3.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/thunderhead/thunderhead3.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/thunderhead/thunderhead3.png", width: 800, height: 640 },
+				desktop: { src: "/images/thunderhead/thunderhead3.png", width: 800, height: 640 }
 			},
 			{
 				name: "Thunderhead Features",
-				mobile: {
-					src: "/images/thunderhead/thunderhead4.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/thunderhead/thunderhead4.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/thunderhead/thunderhead4.png", width: 800, height: 640 },
+				desktop: { src: "/images/thunderhead/thunderhead4.png", width: 800, height: 640 }
 			}
 		],
 		type: "bullets",
 		bullets: [
-			"Passive behavioral scoring engine, no JS challenges or CAPTCHAs",
-			"Scores requests 0-100 across signals: robots.txt violations, path crawling, request rate, suspicious headers, and content patterns",
-			"Graduated responses: allow (< 40), tarpit with configurable delay (≥ 40), or block 403 (≥ 75)",
-			"Structured JSON logging for all proxy decisions",
-			"IP, CIDR, and user-agent allowlist support",
-			"Config-driven: listen address, upstream URL, thresholds, and tarpit delay all configurable"
+			"Sits in front of any web app and passively scores each request's intent instead of relying on JS challenges or CAPTCHAs that hurt real users",
+			"Combines multiple behavioral signals - crawl patterns, request rate, header anomalies - into a single 0-100 score to tell bots from humans without a single hard rule",
+			"Responds proportionally to risk: lets low-score traffic through, slows down suspicious requests with a tarpit, and only blocks outright once a request is clearly malicious"
 		]
 	},
 	{
@@ -94,73 +61,40 @@ export const projects: Project[] = [
 			github: "https://github.com/bhavv04/verrere",
 			live: "https://verrere.vercel.app/"
 		},
+		hasCaseStudy: false,
 		screenshots: [
 			{
 				name: "verrere Landing Page",
-				mobile: {
-					src: "/images/verrere/verrere1.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/verrere/verrere1.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/verrere/verrere1.png", width: 800, height: 640 },
+				desktop: { src: "/images/verrere/verrere1.png", width: 800, height: 640 }
 			},
 			{
 				name: "verrere Swipe Interface",
-				mobile: {
-					src: "/images/verrere/verrere2.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/verrere/verrere2.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/verrere/verrere2.png", width: 800, height: 640 },
+				desktop: { src: "/images/verrere/verrere2.png", width: 800, height: 640 }
 			},
 			{
 				name: "verrere Shelf",
-				mobile: {
-					src: "/images/verrere/verrere3.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/verrere/verrere3.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/verrere/verrere3.png", width: 800, height: 640 },
+				desktop: { src: "/images/verrere/verrere3.png", width: 800, height: 640 }
 			},
 			{
 				name: "verrere Genre Selection",
-				mobile: {
-					src: "/images/verrere/verrere4.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/verrere/verrere4.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/verrere/verrere4.png", width: 800, height: 640 },
+				desktop: { src: "/images/verrere/verrere4.png", width: 800, height: 640 }
 			}
 		],
 		type: "bullets",
 		bullets: [
-			"Built a smooth, physics-based card deck with Framer Motion that triggers instant visual feedack as you drag",
-			"Connected the Hardcover Books API to cycle through a user's selected genres without stalling or repeating data",
-			"Designed a custom REST API proxy that tracks swiped book IDs to ensure users never see the same book twice",
-			"Used Prisma and Neon PostgreSQL to save liked books and manage reading shelves instantaneously",
-			"Integrated Clerk to handle secure email and Google logins, syncing user shelves across devices seamlessly"
+			"Turns book discovery into a swipe-based deck instead of a search bar, giving instant physics-based feedback on every drag",
+			"Tracks every book a user has already seen so genre browsing never repeats a title, even across long sessions",
+			"Saves liked books to a persistent shelf and syncs it across devices, so a user's picks are never tied to a single browser"
 		]
 	},
 	{
 		name: "Groat",
 		summary:
-			"A self-hosted LLM proxy that cuts your API bill by routing requests to cheaper models and caching semantically-similar responses - a drop-in OpenAI-compatible endpoint with no code changes required.",
+			"A self-hosted LLM proxy that cuts your API bill by routing requests to cheaper models and caching semantically-similar responses - a drop-in LLM-compatible endpoint with no code changes required.",
 		logo: {
 			src: "/images/projects/groat.png",
 			width: 128,
@@ -182,55 +116,30 @@ export const projects: Project[] = [
 			github: "https://github.com/bhavv04/groat",
 			live: "https://getgroat.vercel.app/"
 		},
+		hasCaseStudy: true,
+		slug: "groat",
 		screenshots: [
 			{
 				name: "Groat Dashboard",
-				mobile: {
-					src: "/images/groat/groat1.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/groat/groat1.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/groat/groat1.png", width: 800, height: 640 },
+				desktop: { src: "/images/groat/groat1.png", width: 800, height: 640 }
 			},
 			{
 				name: "Groat Semantic Cache",
-				mobile: {
-					src: "/images/groat/groat2.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/groat/groat2.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/groat/groat2.png", width: 800, height: 640 },
+				desktop: { src: "/images/groat/groat2.png", width: 800, height: 640 }
 			},
 			{
 				name: "Groat Routing Config",
-				mobile: {
-					src: "/images/groat/groat3.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/groat/groat3.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/groat/groat3.png", width: 800, height: 640 },
+				desktop: { src: "/images/groat/groat3.png", width: 800, height: 640 }
 			}
 		],
 		type: "bullets",
 		bullets: [
-			"Semantic cache using bge-small-en-v1.5 embeddings and LanceDB - similarity threshold of 0.95 returns cached responses without hitting the API",
-			"Automatic prompt cache injection - detects stable system-prompt prefixes and injects cache_control breakpoints to claim provider-side cached-token discounts",
-			"User-defined TOML routing - pins use cases to model tiers instead of relying on a classifier, with automatic cheap-tier routing for structured-output requests with a JSON schema",
-			"Retroactive suggestions engine - analyzes logged traffic (~10k request threshold) to surface routing rules with estimated savings, without auto-applying any changes",
-			"Cost dashboard showing real-time spend and savings per route",
-			"In design: conversation-graph-aware routing (depth/branching factor as routing signals) and speculative prefetching for predictable follow-up requests"
+			"Drops in as an LLM-compatible endpoint, so it cuts LLM spend without touching a single line of an app's existing code",
+			"Recognizes when a new prompt is semantically close to one it's already answered and returns the cached response instead of paying for another API call",
+			"Watches real traffic over time and surfaces routing rules with estimated savings, so cost cuts are backed by usage data instead of guesswork"
 		]
 	},
 	{
@@ -257,68 +166,35 @@ export const projects: Project[] = [
 			github: "https://github.com/bhavv04/funes",
 			live: "https://get-funes.vercel.app"
 		},
+		hasCaseStudy: true,
+		slug: "funes",
 		screenshots: [
 			{
 				name: "Funes Terminal",
-				mobile: {
-					src: "/images/funes/funes1.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/funes/funes1.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/funes/funes1.png", width: 800, height: 640 },
+				desktop: { src: "/images/funes/funes1.png", width: 800, height: 640 }
 			},
 			{
 				name: "Funes Documentation Introduction",
-				mobile: {
-					src: "/images/funes/funes2.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/funes/funes2.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/funes/funes2.png", width: 800, height: 640 },
+				desktop: { src: "/images/funes/funes2.png", width: 800, height: 640 }
 			},
 			{
 				name: "Funes Documentation Installation",
-				mobile: {
-					src: "/images/funes/funes3.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/funes/funes3.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/funes/funes3.png", width: 800, height: 640 },
+				desktop: { src: "/images/funes/funes3.png", width: 800, height: 640 }
 			},
 			{
 				name: "Funes Documentation Configuration",
-				mobile: {
-					src: "/images/funes/funes4.png",
-					width: 800,
-					height: 640
-				},
-				desktop: {
-					src: "/images/funes/funes4.png",
-					width: 800,
-					height: 640
-				}
+				mobile: { src: "/images/funes/funes4.png", width: 800, height: 640 },
+				desktop: { src: "/images/funes/funes4.png", width: 800, height: 640 }
 			}
 		],
 		type: "bullets",
 		bullets: [
-			"Background daemon watches files, notes, and shell history (bash/zsh/PowerShell) for changes in real time",
-			"Chunks indexed content and converts it into vector embeddings locally via Ollama (nomic-embed-text) - nothing leaves the machine",
-			"Semantic query engine surfaces the most relevant chunks by meaning, not keyword match, with similarity scores",
-			"Optional LLM synthesis mode (--llm) turns raw results into a plain English answer using a local Llama 3 model",
-			"SQLite-backed vector storage with manual folder indexing (add), continuous watching (watch), and file exclusion patterns (forget)",
-			"Distributed as a Rust CLI via cargo install, with a Next.js docs/marketing site deployed on Vercel"
+			"Lets you ask your own machine questions in plain English instead of grepping through files, notes, and shell history by hand",
+			"Runs entirely on-device - indexing, embeddings, and answer generation all happen locally, so nothing about a user's files or history ever leaves the machine",
+			"Finds results by meaning rather than exact keywords, so a vague or loosely-worded question can still surface the right file or command from months ago"
 		]
 	}
 ];
