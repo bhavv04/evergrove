@@ -172,7 +172,7 @@ export default function Footer() {
 			</div>
 
 			<Toaster position="bottom-right" reverseOrder={true} />
-			<Script src="https://webring.ca/embed.js" strategy="lazyOnload" />
+			<Script src="https://webring.ca/embed.js" strategy="afterInteractive" />
 		</footer>
 	);
 }
