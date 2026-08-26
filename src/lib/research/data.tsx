@@ -50,7 +50,7 @@ export const caseStudies: CaseStudy[] = [
 			"Long/Short Backtest",
 			"Sharpe Ratio & Max Drawdown"
 		],
-		stack: ["Python", "statsmodels", "networkx", "yfinance", "pandas", "matplotlib", "Jupyter"],
+		stack: ["Python", "statsmodels", "networkx", "yfinance", "pandas", "matplotlib", "Jupyter", "Statsmodels"],
 		links: {
 			repo: "https://github.com/bhavv04/precursor",
 			paper: "https://bhavv04.github.io/precursor/precursor_paper.pdf",

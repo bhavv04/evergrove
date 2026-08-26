@@ -15,7 +15,8 @@ const STACK_TO_TECHNOLOGY: Partial<Record<string, Technology>> = {
 	"scikit-learn": Technology.ScikitLearn,
 	pandas: Technology.Pandas,
 	Jupyter: Technology.Jupyter,
-	TypeScript: Technology.TypeScript
+	TypeScript: Technology.TypeScript,
+	Statsmodels: Technology.Statsmodels
 };
 
 export function CaseStudyCard({ study }: { study: CaseStudy }) {

@@ -11,7 +11,7 @@ export const projects: Project[] = [
 			width: 128,
 			height: 128
 		},
-		technologies: [Technology.Go, Technology.NextJS, Technology.TypeScript, Technology.Redis, Technology.Javascript, Technology.Nginx],
+		technologies: [Technology.Go, Technology.NextJS, Technology.TypeScript, Technology.Redis, Technology.Nginx, Technology.Docker, Technology.Git],
 		links: {
 			github: "https://github.com/bhavv04/thunderhead",
 			live: "https://getthunderhead.vercel.app/"
@@ -56,7 +56,7 @@ export const projects: Project[] = [
 			width: 128,
 			height: 128
 		},
-		technologies: [Technology.NextJS, Technology.TypeScript, Technology.TailwindCSS, Technology.PostgreSQL, Technology.Prisma],
+		technologies: [Technology.NextJS, Technology.TypeScript, Technology.TailwindCSS, Technology.PostgreSQL, Technology.Prisma, Technology.GraphQL],
 		links: {
 			github: "https://github.com/bhavv04/verrere",
 			live: "https://verrere.vercel.app/"
