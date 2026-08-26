@@ -17,6 +17,15 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 		timeZone: "UTC"
 	});
 
+	const formattedUpdatedDate = post.updatedAt
+		? new Date(post.updatedAt).toLocaleDateString("en-US", {
+				year: "numeric",
+				month: "long",
+				day: "numeric",
+				timeZone: "UTC"
+			})
+		: null;
+
 	return (
 		<article className="mx-auto max-w-4xl pb-16">
 			<Link
@@ -29,7 +38,10 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 			</Link>
 
 			<header className="fade-in-up mb-4" style={{ "--delay-index": 1 } as React.CSSProperties}>
-				<time className="text-sm text-white/70">{formattedDate}</time>
+				<time className="text-sm text-white/70">posted {formattedDate}</time>
+				{formattedUpdatedDate && formattedUpdatedDate !== formattedDate && (
+					<span className="text-sm text-white/70">, last updated on {formattedUpdatedDate}</span>
+				)}
 				<h1 className="mt-2 text-3xl font-bold text-white">{post.title}</h1>
 			</header>
 

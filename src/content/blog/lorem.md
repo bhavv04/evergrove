@@ -1,6 +1,7 @@
 ---
 title: "On the Art of Saying Nothing at Length"
 date: "2026-07-05"
+updatedAt: "2026-08-26"
 excerpt: "A sprawling, meandering test post filled with placeholder text to make sure the blog layout doesn't fall apart under pressure."
 ---
 

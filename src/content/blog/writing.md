@@ -1,6 +1,7 @@
 ---
 title: "Building Ashgrave: Notes From a World Still Taking Shape"
 date: "2026-08-06"
+updatedAt: ""
 excerpt: "Early notes on the fantasy novel I'm slowly building in the margins of everything else, placeholder post to make sure the blog layout holds up for long-form fiction writing."
 ---
 

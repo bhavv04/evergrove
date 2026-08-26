@@ -1,6 +1,7 @@
 ---
 title: "Groat: A Proxy That Tries to Spend Your LLM Budget Like It's Its Own"
 date: "2026-07-06"
+updatedAt: ""
 excerpt: "Most LLM proxies show you the bill. Groat, a self-hosted Rust proxy, tries to shrink it -four levers, ordered by how much you should trust them, plus two research-stage ideas borrowed from OS scheduling."
 ---
 

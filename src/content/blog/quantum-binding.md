@@ -1,6 +1,7 @@
 ---
 title: "Quantum kernels for drug-molecule binding"
 date: "2026-07-31"
+updatedAt: ""
 excerpt: "Exploring QKDTI's quantum kernel approach for Alzheimer's drug-target binding prediction - starting from zero on the quantum computing side."
 ---
 
