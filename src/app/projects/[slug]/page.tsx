@@ -42,19 +42,22 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 				{project.featured && <span className="rounded-full bg-violet-500/20 px-2 text-xs text-violet-300">featured</span>}
 			</div>
 
-			<div className="fade-in-up mb-6 flex flex-wrap gap-1" style={{ "--delay-index": 3 } as React.CSSProperties}>
-				{project.tech.map((t) => (
-					<span key={t} className="rounded-md bg-stone-900 px-2 py-1 text-xs text-white/70">
-						{t}
-					</span>
-				))}
-			</div>
-
 			<div
 				className="fade-in-up prose mb-8 max-w-none text-white prose-invert prose-headings:mt-6 prose-headings:mb-2"
 				style={{ "--delay-index": 4 } as React.CSSProperties}
 				dangerouslySetInnerHTML={{ __html: project.contentHtml }}
 			/>
+
+			<div className="fade-in-up mb-4 flex flex-col gap-1" style={{ "--delay-index": 3 } as React.CSSProperties}>
+				<span className="mb-2 text-xs text-white/70">made with:</span>
+				<div className="flex flex-wrap gap-1">
+					{project.tech.map((t) => (
+						<span key={t} className="rounded-md bg-stone-900 px-2 py-1 text-xs text-white/70">
+							{t}
+						</span>
+					))}
+				</div>
+			</div>
 
 			<div className="fade-in-up flex gap-1.5" style={{ "--delay-index": 5 } as React.CSSProperties}>
 				<Button asChild variant="default" className="">

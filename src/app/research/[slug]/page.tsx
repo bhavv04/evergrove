@@ -17,7 +17,7 @@ export default async function ResearchPage({ params }: { params: Promise<{ slug:
 
 	if (!study) notFound();
 
-	const { contentHtml, highlights } = await getResearchContentBySlug(slug);
+	const { contentHtml } = await getResearchContentBySlug(slug);
 
 	return (
 		<article className="mx-auto max-w-4xl pb-16">
@@ -35,30 +35,6 @@ export default async function ResearchPage({ params }: { params: Promise<{ slug:
 				<p className="mt-1 text-sm text-white/70">{study.subtitle}</p>
 			</header>
 
-			<div className="fade-in-up mb-6 flex flex-wrap gap-1.5" style={{ "--delay-index": 2 } as React.CSSProperties}>
-				{study.tags.map((tag) => (
-					<span key={tag} className="rounded-md bg-stone-900 px-2 py-1 text-xs text-white/70">
-						{tag}
-					</span>
-				))}
-			</div>
-
-			{/* Highlights (from markdown frontmatter) */}
-			{highlights.length > 0 && (
-				<div className="fade-in-up mb-8" style={{ "--delay-index": 3 } as React.CSSProperties}>
-					<p className="text-md mb-2 text-white">Highlights</p>
-					<ul className="flex flex-col gap-1">
-						{highlights.map((h) => (
-							<li key={h} className="flex items-start gap-2 text-sm text-white">
-								<span className="mt-px shrink-0">{`❀ `}</span>
-								<span>{h}</span>
-							</li>
-						))}
-					</ul>
-				</div>
-			)}
-
-			{/* Abstract (from markdown body) */}
 			<div
 				className="fade-in-up prose mb-8 max-w-none text-white prose-invert prose-headings:mt-6 prose-headings:mb-2"
 				style={{ "--delay-index": 4 } as React.CSSProperties}
@@ -66,11 +42,11 @@ export default async function ResearchPage({ params }: { params: Promise<{ slug:
 			/>
 
 			{/* Stack */}
-			<div className="fade-in-up mb-8" style={{ "--delay-index": 5 } as React.CSSProperties}>
-				<p className="mb-2 text-xs text-white/30">Stack</p>
+			<div className="fade-in-up mb-4" style={{ "--delay-index": 5 } as React.CSSProperties}>
+				<p className="mb-2 text-xs text-white/70">made with: </p>
 				<div className="flex flex-wrap gap-1.5">
 					{study.stack.map((s) => (
-						<span key={s} className="rounded-md bg-stone-300/10 px-2 py-0.5 text-xs text-white/60">
+						<span key={s} className="rounded-md bg-stone-900 px-2 py-0.5 text-xs text-white/60">
 							{s}
 						</span>
 					))}
