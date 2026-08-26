@@ -68,7 +68,7 @@ export function ProjectCard({ project }: { project: Project }) {
 
 					{project.hasCaseStudy && (
 						<Button asChild variant="primary" size="sm" className="">
-							<Link href={`/projects/${project.slug}`}>See more ⤳</Link>
+							<Link href={`/projects/${project.slug}`}>See more w</Link>
 						</Button>
 					)}
 				</div>

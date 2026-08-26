@@ -28,7 +28,9 @@ export const caseStudies: CaseStudy[] = [
 			"Center 8% of k-space columns always retained - low frequencies carry the bulk of image energy",
 			"~7.7M parameter U-Net with four encoder/decoder stages and transposed convolution upsampling",
 			"Benchmarked on NYU fastMRI single-coil knee dataset (Zbontar et al., 2018)"
-		]
+		],
+		hasCaseStudy: true,
+		slug: "lacunae"
 	},
 	{
 		id: "precursor",
@@ -58,6 +60,8 @@ export const caseStudies: CaseStudy[] = [
 			"Tests momentum spillover at lags k ∈ {1,2,3,4,5} trading days across 3,500+ daily observations",
 			"DAG construction maps in/out-degree centrality to identify leading commodity indicators",
 			"Backtest evaluates annualised Sharpe, max drawdown, and hit rate on an 80/20 train/test split"
-		]
+		],
+		hasCaseStudy: true,
+		slug: "precursor"
 	}
 ];

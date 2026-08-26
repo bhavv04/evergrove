@@ -79,6 +79,11 @@ export function CaseStudyCard({ study }: { study: CaseStudy }) {
 						</Link>
 					</Button>
 				)}
+				{study.hasCaseStudy && (
+					<Button asChild variant="default" className="">
+						<Link href={`/research/${study.slug}`}>See more ⤳</Link>
+					</Button>
+				)}
 			</div>
 		</article>
 	);

@@ -22,4 +22,6 @@ export interface CaseStudy {
 		SSRN?: string;
 	};
 	highlights?: string[];
+	hasCaseStudy?: boolean;
+	slug?: string;
 }
