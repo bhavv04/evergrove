@@ -22,6 +22,8 @@ function Stars({ rating }: { rating: number }) {
 }
 
 export default function RecentReads() {
+	const latestReads = [...recentReads].sort((a, b) => new Date(b.finishedAt).getTime() - new Date(a.finishedAt).getTime()).slice(0, 3);
+
 	return (
 		<div className="flex h-full w-full flex-col px-2">
 			<h3 className="mb-4 flex items-center gap-1.5 text-sm text-white/70">
@@ -29,7 +31,7 @@ export default function RecentReads() {
 			</h3>
 
 			<div className="flex flex-1 flex-col justify-center gap-2">
-				{recentReads.map((book, i) => (
+				{latestReads.map((book, i) => (
 					<div key={i} className="flex items-center gap-3">
 						{book.coverUrl ? (
 							<img src={book.coverUrl} alt={book.title} className="h-16 w-10 flex-shrink-0 rounded object-cover" />

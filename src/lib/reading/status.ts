@@ -27,5 +27,12 @@ export const recentReads: ReadEntry[] = [
 		finishedAt: "2026-07-28",
 		coverUrl: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1742965949i/169485073.jpg",
 		rating: 5
+	},
+	{
+		title: "East of Eden",
+		author: "John Steinbeck",
+		finishedAt: "2026-08-28",
+		coverUrl: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1639969375i/4406.jpg",
+		rating: 5
 	}
 ];
