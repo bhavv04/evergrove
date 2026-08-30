@@ -84,7 +84,7 @@ export default function Footer() {
 								rel="noopener noreferrer"
 							>
 								<span className="text-gray-600 group-hover:text-gray-400">→</span>
-								LinkedIn
+								linkedin
 							</a>
 							<a
 								href="mailto:bhavdeepsa@gmail.com?subject=Hello%20Bhavdeep"
