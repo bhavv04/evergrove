@@ -1,63 +1,23 @@
 [
 	{
-		"id": "900672691",
-		"title": "Work Song",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/1b/f1/5e1bf1de-e5f1-e73e-0752-e7882b4f2d57/886444718820.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/86/e5/fd86e592-223e-b29c-fb87-1d66333b2867/mzaf_6324882069873533008.plus.aac.p.m4a",
-		"startAt": 15,
-		"bgFrom": "#4b3c32",
-		"bgTo": "#cd8440"
-	},
-	{
 		"id": "276348360",
 		"title": "Mykonos",
 		"artist": "Fleet Foxes",
 		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cd/a1/07/cda10780-d1b2-eb11-b8d1-fc5d72cda6b0/098787078169.png/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/42/32/f0/4232f0b2-97d3-d48d-dc7c-eafff1741773/mzaf_7446301019965688805.plus.aac.p.m4a",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/e1/8a/a4e18a7d-764a-f77b-4b65-0487540d3e85/mzaf_5300751714829114859.plus.aac.p.m4a",
 		"startAt": 15,
 		"bgFrom": "#3e6653",
 		"bgTo": "#46a6c9"
-	},
-	{
-		"id": "1448967239",
-		"title": "Movement",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/73/03/fc73032d-d67d-ade3-8b9a-6f403fd9491b/886447495391.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/22/d3/5522d363-f40a-e7c7-3d3e-e4070cb0296e/mzaf_10415873169476934519.plus.aac.p.m4a",
-		"startAt": 25,
-		"bgFrom": "#344e56",
-		"bgTo": "#3c7d76"
-	},
-	{
-		"id": "1796003366",
-		"title": "Poison",
-		"artist": "David Kushner",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/7b/c0/ff7bc0be-a682-22f7-fcae-e0d1f918f66f/196922996658_Cover.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/a5/d4/46a5d4e2-7230-2b1b-d534-7858a674b681/mzaf_6189616892321709110.plus.aac.p.m4a",
-		"startAt": 20,
-		"bgFrom": "#515050",
-		"bgTo": "#f71c07"
 	},
 	{
 		"id": "1753327791",
 		"title": "Southern Star",
 		"artist": "Gregory Alan Isakov",
 		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/15/ed/83/15ed83dc-8e46-09b2-fb12-764a65a281a3/18573.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/e4/5e/97e45e51-95eb-8705-6c3d-d1b847dd13fa/mzaf_11282500147728848691.plus.aac.p.m4a",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/5a/77/0c5a77e2-9b92-4d67-1bf5-e9556ff25f14/mzaf_10963604546292154619.plus.aac.p.m4a",
 		"startAt": 10,
 		"bgFrom": "#46472f",
 		"bgTo": "#d4b52a"
-	},
-	{
-		"id": "1796003365",
-		"title": "No High",
-		"artist": "David Kushner",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/7b/c0/ff7bc0be-a682-22f7-fcae-e0d1f918f66f/196922996658_Cover.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/6a/68/e26a68d9-7ce2-811e-40d2-41b0cf12a2d4/mzaf_6397270574135385625.plus.aac.p.m4a",
-		"startAt": 20,
-		"bgFrom": "#515050",
-		"bgTo": "#f71c07"
 	},
 	{
 		"id": "1784150760",
@@ -70,299 +30,11 @@
 		"bgTo": "#ca5f21"
 	},
 	{
-		"id": "1796003367",
-		"title": "Skin and Bones",
-		"artist": "David Kushner",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/7b/c0/ff7bc0be-a682-22f7-fcae-e0d1f918f66f/196922996658_Cover.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/b3/20/60b32002-2f01-2395-6c30-2c11a617df11/mzaf_11204462727246193094.plus.aac.p.m4a",
-		"bgFrom": "#515050",
-		"bgTo": "#f71c07"
-	},
-	{
-		"id": "1795651048",
-		"title": "Dead Man",
-		"artist": "David Kushner",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/87/a4/ff87a4dc-8051-647a-c288-da56bfaf8967/842812196690_Cover.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/47/08/2b/47082bea-1e88-c34e-1f97-c157554752a3/mzaf_11771371241844892931.plus.aac.p.m4a",
-		"bgFrom": "#5c412e",
-		"bgTo": "#844424"
-	},
-	{
-		"id": "1796003375",
-		"title": "Sweet Oblivion",
-		"artist": "David Kushner",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/7b/c0/ff7bc0be-a682-22f7-fcae-e0d1f918f66f/196922996658_Cover.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/9b/2f/ac9b2fc6-59a0-062e-12e9-36d6cbbd7a17/mzaf_12070825439069896881.plus.aac.p.m4a",
-		"bgFrom": "#515050",
-		"bgTo": "#f71c07"
-	},
-	{
-		"id": "1796003378",
-		"title": "Buried at Sea",
-		"artist": "David Kushner",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/7b/c0/ff7bc0be-a682-22f7-fcae-e0d1f918f66f/196922996658_Cover.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/fe/78/a5fe7820-14c2-ea67-3bfc-f17e58f3c31b/mzaf_10324020655200270813.plus.aac.p.m4a",
-		"bgFrom": "#515050",
-		"bgTo": "#f71c07"
-	},
-	{
-		"id": "1796003383",
-		"title": "Darkerside",
-		"artist": "David Kushner",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/7b/c0/ff7bc0be-a682-22f7-fcae-e0d1f918f66f/196922996658_Cover.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/83/d6/70/83d670b9-9191-95c8-0705-a3c3588b8d64/mzaf_78220018404277666.plus.aac.p.m4a",
-		"bgFrom": "#515050",
-		"bgTo": "#f71c07"
-	},
-	{
-		"id": "1796003779",
-		"title": "Saving Your Soul",
-		"artist": "David Kushner",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/7b/c0/ff7bc0be-a682-22f7-fcae-e0d1f918f66f/196922996658_Cover.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/6f/fa/0c6ffaab-5d5a-9dfe-0600-5e7e7339c342/mzaf_9161719627544103316.plus.aac.p.m4a",
-		"bgFrom": "#515050",
-		"bgTo": "#f71c07"
-	},
-	{
-		"id": "1796004433",
-		"title": "Daylight",
-		"artist": "David Kushner",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/f2/2b/b9f22b26-d962-70de-6d85-674139ded7cc/842812190988_Cover.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/94/52/939452d5-e74e-a819-2f16-7c9148f3419a/mzaf_17998933934090835373.plus.aac.p.m4a",
-		"bgFrom": "#4d4e2c",
-		"bgTo": "#946424"
-	},
-	{
-		"id": "900672609",
-		"title": "Take Me to Church",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/1b/f1/5e1bf1de-e5f1-e73e-0752-e7882b4f2d57/886444718820.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/95/fe/fb95fea4-aab2-151d-7e2d-a3b2740de243/mzaf_5007348610386911589.plus.aac.p.m4a",
-		"bgFrom": "#4b3c32",
-		"bgTo": "#cd8440"
-	},
-	{
-		"id": "900672720",
-		"title": "Cherry Wine (Live)",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/1b/f1/5e1bf1de-e5f1-e73e-0752-e7882b4f2d57/886444718820.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/ef/65/52ef6595-ba29-c021-e35f-d560570802d9/mzaf_12171251938114117108.plus.aac.p.m4a",
-		"bgFrom": "#4b3c32",
-		"bgTo": "#cd8440"
-	},
-	{
-		"id": "900672644",
-		"title": "From Eden",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/1b/f1/5e1bf1de-e5f1-e73e-0752-e7882b4f2d57/886444718820.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/d3/41/37d3416c-4858-a3bb-a545-a0fce5d62ff8/mzaf_10387276073910365044.plus.aac.p.m4a",
-		"bgFrom": "#4b3c32",
-		"bgTo": "#cd8440"
-	},
-	{
-		"id": "900672611",
-		"title": "Jackie and Wilson",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/1b/f1/5e1bf1de-e5f1-e73e-0752-e7882b4f2d57/886444718820.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/9e/b5/dd9eb524-c2eb-87ed-fc28-72e08557ae4f/mzaf_9063595295833056008.plus.aac.p.m4a",
-		"bgFrom": "#4b3c32",
-		"bgTo": "#cd8440"
-	},
-	{
-		"id": "900672613",
-		"title": "Someone New",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/1b/f1/5e1bf1de-e5f1-e73e-0752-e7882b4f2d57/886444718820.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/1d/62/8e1d6233-3f6b-495b-84e4-7d9d15120450/mzaf_3562006944414859196.plus.aac.p.m4a",
-		"bgFrom": "#4b3c32",
-		"bgTo": "#cd8440"
-	},
-	{
-		"id": "1732773508",
-		"title": "Almost (Sweet Music)",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6d/cc/97/6dcc974c-35ea-abf0-baed-d39217e4f812/196871873871.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/32/2f/22322fb4-aba9-b857-7bde-e36598fc4775/mzaf_1112141639779795582.plus.aac.p.m4a",
-		"bgFrom": "#344e56",
-		"bgTo": "#3c7d76"
-	},
-	{
-		"id": "900672684",
-		"title": "Sedated",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/1b/f1/5e1bf1de-e5f1-e73e-0752-e7882b4f2d57/886444718820.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/e3/3b/a3e33b5f-6e4a-e3b8-71e3-bf68bc01cf3e/mzaf_15588765042165620875.plus.aac.p.m4a",
-		"bgFrom": "#4b3c32",
-		"bgTo": "#cd8440"
-	},
-	{
-		"id": "1448967235",
-		"title": "Nina Cried Power (feat. Mavis Staples)",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/73/03/fc73032d-d67d-ade3-8b9a-6f403fd9491b/886447495391.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/0e/2d/160e2d10-27bf-5b4a-af77-bbb7de5923db/mzaf_16820508424362199226.plus.aac.p.m4a",
-		"bgFrom": "#344e56",
-		"bgTo": "#3c7d76"
-	},
-	{
-		"id": "1448967247",
-		"title": "Shrike",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/73/03/fc73032d-d67d-ade3-8b9a-6f403fd9491b/886447495391.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/da/fc/70dafcf0-480e-5392-eaba-b84802db9512/mzaf_9426923309309305373.plus.aac.p.m4a",
-		"bgFrom": "#344e56",
-		"bgTo": "#3c7d76"
-	},
-	{
-		"id": "1448967239",
-		"title": "Movement",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/73/03/fc73032d-d67d-ade3-8b9a-6f403fd9491b/886447495391.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/22/d3/5522d363-f40a-e7c7-3d3e-e4070cb0296e/mzaf_10415873169476934519.plus.aac.p.m4a",
-		"bgFrom": "#344e56",
-		"bgTo": "#3c7d76"
-	},
-	{
-		"id": "1481659078",
-		"title": "The Bones",
-		"artist": "Maren Morris & Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/1e/fa/ed/1efaed1c-05af-74ee-5835-61c924709ec9/886447991480.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/84/e2/71/84e271c7-0676-ce41-b2e2-3bb23ad1ccfd/mzaf_3013475297987932064.plus.aac.p.m4a",
-		"bgFrom": "#2d532b",
-		"bgTo": "#70bb43"
-	},
-	{
-		"id": "1448967401",
-		"title": "Would That I",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/73/03/fc73032d-d67d-ade3-8b9a-6f403fd9491b/886447495391.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/9b/b0/469bb06b-4e6f-f464-0e28-076534217124/mzaf_6617350283827688286.plus.aac.p.m4a",
-		"bgFrom": "#344e56",
-		"bgTo": "#3c7d76"
-	},
-	{
-		"id": "1448967250",
-		"title": "Dinner & Diatribes",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/73/03/fc73032d-d67d-ade3-8b9a-6f403fd9491b/886447495391.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/10/1f/3a/101f3ae1-bae0-f336-5a41-de60aaf3d317/mzaf_16184009183897222988.plus.aac.p.m4a",
-		"bgFrom": "#344e56",
-		"bgTo": "#3c7d76"
-	},
-	{
-		"id": "1448967248",
-		"title": "Talk",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/73/03/fc73032d-d67d-ade3-8b9a-6f403fd9491b/886447495391.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/29/33/05/29330517-cc8b-c680-e5e7-a220e95af007/mzaf_13851682084315194489.plus.aac.p.m4a",
-		"bgFrom": "#344e56",
-		"bgTo": "#3c7d76"
-	},
-	{
-		"id": "1687585362",
-		"title": "Francesca",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/02/4f/be/024fbe59-7bf9-098b-9a75-8a801e5edb0a/196871101493.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/48/1e/d3481e5c-56f9-3138-0e46-a312087ad98d/mzaf_8906166425981690721.plus.aac.p.m4a",
-		"bgFrom": "#5b3728",
-		"bgTo": "#b45c49"
-	},
-	{
-		"id": "1646317420",
-		"title": "Swan Upon Leda",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/20/16/73/20167385-5e02-4643-d248-cee412a0caf9/196589462312.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/67/5a/e5675a03-3183-d28d-a846-8b41c8019dc7/mzaf_2127623190883919614.plus.aac.p.m4a",
-		"bgFrom": "#4c433d",
-		"bgTo": "#bf5c3f"
-	},
-	{
-		"id": "1687585674",
-		"title": "Butchered Tongue",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/02/4f/be/024fbe59-7bf9-098b-9a75-8a801e5edb0a/196871101493.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/57/5b/3a575b03-6dde-d3a3-7bee-bae51e10119a/mzaf_4657410287127092380.plus.aac.p.m4a",
-		"bgFrom": "#5b3728",
-		"bgTo": "#b45c49"
-	},
-	{
-		"id": "1673582924",
-		"title": "Eat Your Young",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b6/78/82/b6788259-bff6-4ecc-4779-c5582b39d318/196589917829.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/a1/06/02a106cf-708f-0bda-0f80-20724cbf42fb/mzaf_16436026680622884693.plus.aac.p.m4a",
-		"bgFrom": "#543c2e",
-		"bgTo": "#e1a552"
-	},
-	{
-		"id": "1687585358",
-		"title": "De Selby (Part 1)",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/02/4f/be/024fbe59-7bf9-098b-9a75-8a801e5edb0a/196871101493.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/1a/2b/f21a2b75-7b83-5c9f-6764-e8bc16feae15/mzaf_4824987811402144623.plus.aac.p.m4a",
-		"bgFrom": "#5b3728",
-		"bgTo": "#b45c49"
-	},
-	{
-		"id": "1687585360",
-		"title": "De Selby (Part 2)",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/02/4f/be/024fbe59-7bf9-098b-9a75-8a801e5edb0a/196871101493.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/91/be/7091be12-58ec-7763-7967-fe73da42816d/mzaf_252409865080639019.plus.aac.p.m4a",
-		"bgFrom": "#5b3728",
-		"bgTo": "#b45c49"
-	},
-	{
-		"id": "1735414394",
-		"title": "Too Sweet",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/80/95/98809581-4a0e-68a6-04de-b72492e35939/196871908191.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/61/fc/a661fcaf-f8e5-03db-36f3-31f2e196b1a5/mzaf_18300083713037280538.plus.aac.p.m4a",
-		"bgFrom": "#4a4742",
-		"bgTo": "#c1a465"
-	},
-	{
-		"id": "1687585361",
-		"title": "First Time",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/02/4f/be/024fbe59-7bf9-098b-9a75-8a801e5edb0a/196871101493.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/65/6d/ac656d1b-e941-67cf-2246-be4444bae488/mzaf_14351264181576428702.plus.aac.p.m4a",
-		"bgFrom": "#5b3728",
-		"bgTo": "#b45c49"
-	},
-	{
-		"id": "900672721",
-		"title": "In the Woods Somewhere",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/1b/f1/5e1bf1de-e5f1-e73e-0752-e7882b4f2d57/886444718820.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/15/a7/26/15a7267a-767b-fe7d-4dd6-764ae536b901/mzaf_14155480066538723798.plus.aac.p.m4a",
-		"bgFrom": "#4b3c32",
-		"bgTo": "#cd8440"
-	},
-	{
-		"id": "923534001",
-		"title": "It Will Come Back",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2f/0a/cb/2f0acb50-8ec8-577f-9405-478b5329c83b/886444702157.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/93/57/0d935765-d3f6-dfc4-a3a7-6647b7f35a00/mzaf_17962773413641908021.plus.aac.p.m4a",
-		"bgFrom": "#2c3d51",
-		"bgTo": "#be7d37"
-	},
-	{
-		"id": "900672694",
-		"title": "Foreigner's God",
-		"artist": "Hozier",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5e/1b/f1/5e1bf1de-e5f1-e73e-0752-e7882b4f2d57/886444718820.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/5b/b7/f05bb79e-cf0d-70b6-7557-ac816d1401ad/mzaf_12323634686850335380.plus.aac.p.m4a",
-		"bgFrom": "#4b3c32",
-		"bgTo": "#cd8440"
-	},
-	{
 		"id": "1753327664",
 		"title": "San Luis",
 		"artist": "Gregory Alan Isakov",
 		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/15/ed/83/15ed83dc-8e46-09b2-fb12-764a65a281a3/18573.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/df/6d/08df6d69-a9b9-26b5-a30c-a4a4e65f749c/mzaf_1717495809530026190.plus.aac.p.m4a",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/ec/e4/9cece47c-ca9d-0d38-e83b-bc2a378d840f/mzaf_17531735061231574705.plus.aac.p.m4a",
 		"bgFrom": "#46472f",
 		"bgTo": "#d4b52a"
 	},
@@ -371,7 +43,7 @@
 		"title": "Thus Always To Tyrants",
 		"artist": "The Oh Hellos",
 		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bc/6a/55/bc6a552f-7cb3-4456-3772-908c97b8f215/23646.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/42/4f/07/424f07b7-d0e1-e625-463f-c9635f0f37f4/mzaf_16059268703654301097.plus.aac.p.m4a",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/d7/54/63d75410-9ccd-998d-a7be-9aba593787ec/mzaf_16603080370399082468.plus.aac.p.m4a",
 		"bgFrom": "#585734",
 		"bgTo": "#a68e58"
 	},
@@ -448,13 +120,13 @@
 		"bgTo": "#7f7f7f"
 	},
 	{
-		"id": "1607979737",
-		"title": "Settle Down (Acoustic)",
-		"artist": "Woodlock",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/aa/08/a3aa08f1-03d9-b4aa-69bc-024447303941/067003200660.png/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/b7/33/f4b7330a-8cbf-3a71-21f1-d5e3eba6cd65/mzaf_4893891237733486344.plus.aac.p.m4a",
-		"bgFrom": "#645431",
-		"bgTo": "#a4844e"
+		"id": "1814007817",
+		"title": "Thirteen Sad Farewells (From the Archives)",
+		"artist": "Stu Larsen",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/43/e6/2143e605-6588-d174-0143-15450347d6d3/067003177658.png/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/79/66/dd79666a-4dd7-8740-5ace-70e89890126d/mzaf_7838674453640673071.plus.aac.p.m4a",
+		"bgFrom": "#524229",
+		"bgTo": "#9c512e"
 	},
 	{
 		"id": "1570355655",
@@ -482,15 +154,6 @@
 		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/ae/26/2fae2650-8cd3-5379-062e-762a381e4362/mzaf_7031661169032928565.plus.aac.p.m4a",
 		"bgFrom": "#53502a",
 		"bgTo": "#7d6c32"
-	},
-	{
-		"id": "1724089235",
-		"title": "Weight of You",
-		"artist": "Ryan Harris & The National Forest",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7b/18/39/7b183983-6d26-24ff-b0d9-04f48017ca99/artwork.jpg/400x400bb.jpg",
-		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/52/fa/12/52fa12b0-bede-1d10-4ac7-df318aca4e6b/mzaf_6959654505170371384.plus.aac.p.m4a",
-		"bgFrom": "#4b4733",
-		"bgTo": "#c4ac84"
 	},
 	{
 		"id": "1666088503",
@@ -547,6 +210,51 @@
 		"bgTo": "#208494"
 	},
 	{
+		"id": "1549791514",
+		"title": "Something More",
+		"artist": "Paper Planes",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0b/8d/2b/0b8d2bfa-5984-567a-e19f-cd2d608ecc7a/artwork.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/99/d3/dc/99d3dc71-d190-d2bb-0cdb-9d9f746196bd/mzaf_2184505563304489347.plus.aac.p.m4a",
+		"bgFrom": "#3c4444",
+		"bgTo": "#4ab492"
+	},
+	{
+		"id": "1663139563",
+		"title": "Lights Fall",
+		"artist": "Ryan Harris",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/4c/c0/d4/4cc0d4e4-c484-1fcb-20bf-0c112ca79acb/artwork.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/66/9a/9a/669a9a2c-1cc8-1215-c116-178670e3ca27/mzaf_17246976390915914996.plus.aac.p.m4a",
+		"bgFrom": "#3c3454",
+		"bgTo": "#647cdb"
+	},
+	{
+		"id": "1717168071",
+		"title": "Running",
+		"artist": "Ryan Harris",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c8/c4/6d/c8c46d0f-9677-2a9c-4fce-22a043308af2/artwork.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/80/4e/84/804e84de-d726-3a6f-8674-bfc3bfdb0cfb/mzaf_7403984231802352984.plus.aac.p.m4a",
+		"bgFrom": "#3f525a",
+		"bgTo": "#529dac"
+	},
+	{
+		"id": "1881667039",
+		"title": "Right Next To You",
+		"artist": "Layup",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c4/71/52/c4715233-60bf-e2fb-a854-46053a2ffff7/859734556365_cover.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/f7/3a/26f73a46-47be-9011-7eb1-1060203cfd85/mzaf_1557474641543148416.plus.aac.p.m4a",
+		"bgFrom": "#302d38",
+		"bgTo": "#cbbf92"
+	},
+	{
+		"id": "1483069474",
+		"title": "Weightless",
+		"artist": "Twin Tacoma",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4a/a7/a1/4aa7a17e-8c22-3bfb-6702-fad1fdb9c679/artwork.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/36/ab/8f/36ab8f61-550a-c31f-ad80-58238a659826/mzaf_17656917473908121076.plus.aac.p.m4a",
+		"bgFrom": "#644c35",
+		"bgTo": "#b57f49"
+	},
+	{
 		"id": "1617949232",
 		"title": "Quick Hands",
 		"artist": "Woodlock",
@@ -554,5 +262,275 @@
 		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/4a/61/17/4a6117ef-4ecd-88de-a5ab-a5e2d77a7b1a/mzaf_15676436037237829756.plus.aac.p.m4a",
 		"bgFrom": "#6f5a3c",
 		"bgTo": "#9c7847"
+	},
+	{
+		"id": "1621542173",
+		"title": "Radio Up",
+		"artist": "Paper Planes",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/21/9d/60/219d6099-06ed-465c-2e60-02acffb969fc/artwork.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/9a/39/96/9a3996a5-2bc6-87d7-3cd0-54ba933cc28c/mzaf_7985212167535178823.plus.aac.p.m4a",
+		"bgFrom": "#5a5b5b",
+		"bgTo": "#d7988a"
+	},
+	{
+		"id": "1665309490",
+		"title": "Miss It",
+		"artist": "Tay Oskee",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d7/dd/af/d7ddafda-f55e-ad61-a9b8-fb076ad8a120/cover.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/32/82/e8/3282e8d3-85b3-8f03-3390-884156a77178/mzaf_8941406131397746866.plus.aac.p.m4a",
+		"bgFrom": "#632d30",
+		"bgTo": "#7c3c34"
+	},
+	{
+		"id": "1805167158",
+		"title": "Cold Ways",
+		"artist": "Salt Tree & Ryan Edmond",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/48/97/f1/4897f1fc-c8ee-10b8-5caf-106e0f86c009/5063268157355.png/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/1e/72/491e72f0-d243-8cc1-3669-eb0a0af4dc1f/mzaf_7697345319674313602.plus.aac.p.m4a",
+		"bgFrom": "#5c4229",
+		"bgTo": "#c68232"
+	},
+	{
+		"id": "1609039044",
+		"title": "Coastline",
+		"artist": "Hollow Coves",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/c7/15/74c71511-66be-4139-72a5-f5491ba8ec19/067003435659.png/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/2e/72/e42e72d8-40c8-5a31-1739-c68beb5bd932/mzaf_1607221697033545703.plus.aac.p.m4a",
+		"bgFrom": "#53495a",
+		"bgTo": "#ae8e50"
+	},
+	{
+		"id": "1566018484",
+		"title": "Soldier, Poet, King",
+		"artist": "The Oh Hellos",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bc/6a/55/bc6a552f-7cb3-4456-3772-908c97b8f215/23646.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/fb/01/3bfb014a-f088-52f2-f369-4aebfcd631ad/mzaf_12055801675437051707.plus.aac.p.m4a",
+		"bgFrom": "#585734",
+		"bgTo": "#a68e58"
+	},
+	{
+		"id": "1639187350",
+		"title": "Run Away to Mars",
+		"artist": "TALK",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b1/b3/7a/b1b37a39-0790-3a99-4b3e-eef0551ff6cf/22UMGIM86066.rgb.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/bc/1b/94bc1b1f-77cd-9bbc-7a71-3bc8a55c5100/mzaf_4756010981906817880.plus.aac.p.m4a",
+		"bgFrom": "#543b31",
+		"bgTo": "#e12c3e"
+	},
+	{
+		"id": "1022164261",
+		"title": "Riptide",
+		"artist": "Vance Joy",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7a/1c/65/7a1c6571-34e9-bb77-32be-90c72ba003c0/075679920355.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/de/ea/1edeea50-c0f4-9d95-f0b8-b23a1af561db/mzaf_6343110017276582270.plus.aac.p.m4a",
+		"bgFrom": "#5c373e",
+		"bgTo": "#922d33"
+	},
+	{
+		"id": "1819829902",
+		"title": "28",
+		"artist": "Zach Bryan",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/2e/c1/f62ec15a-3294-0743-e80c-c5e890171a14/093624828730.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/30/f2/1a30f2a8-838c-39f2-0aef-15bdce53952a/mzaf_4543854822778927246.plus.aac.p.m4a",
+		"bgFrom": "#50322d",
+		"bgTo": "#bc4444"
+	},
+	{
+		"id": "1769273174",
+		"title": "Till the Sun Comes Up",
+		"artist": "Jack and the Weatherman",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/06/6d/04066d2a-4d12-2d54-6649-32ddd8e17172/8718857504863.png/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/ca/c6/93cac627-473e-94a7-2023-cf373dde3e3d/mzaf_12329397428326973391.plus.aac.p.m4a",
+		"bgFrom": "#4e3b3a",
+		"bgTo": "#c67044"
+	},
+	{
+		"id": "426147096",
+		"title": "Paper Sails",
+		"artist": "Stu Larsen",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/b1/40/28b140cb-5ec7-995b-f119-3ca5c8d575a9/mzi.ndxflxqx.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0c/01/c5/0c01c5b2-bab5-5f9a-ef12-6b259c5607d1/mzaf_5908910325239934946.plus.aac.p.m4a",
+		"bgFrom": "#5b5a2f",
+		"bgTo": "#d0b27b"
+	},
+	{
+		"id": "1251542677",
+		"title": "Shape of Love (feat. Boy and Bear)",
+		"artist": "Passenger",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ce/51/45/ce514520-2367-c5aa-ca16-67e70900d02d/859721407816_cover.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/5d/3f/75/5d3f759a-15b7-94a2-da3b-9ecc088d42d7/mzaf_10298203748480562067.plus.aac.p.m4a",
+		"bgFrom": "#2f324d",
+		"bgTo": "#d17c51"
+	},
+	{
+		"id": "571689090",
+		"title": "Sinking Sun (Acoustic Version)",
+		"artist": "Mt Warning",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c2/9d/84/c29d8409-1940-e1e4-84f9-a0118720fa92/859709043791_cover.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/f4/71/9b/f4719ba5-a2d7-e575-ff02-ff7274fbb575/mzaf_7054749699500051597.plus.aac.p.m4a",
+		"bgFrom": "#5f483a",
+		"bgTo": "#46889f"
+	},
+	{
+		"id": "1609039236",
+		"title": "The Woods",
+		"artist": "Hollow Coves",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/c7/15/74c71511-66be-4139-72a5-f5491ba8ec19/067003435659.png/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/82/9f/10829f7d-7644-4f48-65cb-b446815b1be8/mzaf_18024717430207521256.plus.aac.p.m4a",
+		"bgFrom": "#53495a",
+		"bgTo": "#ae8e50"
+	},
+	{
+		"id": "316335886",
+		"title": "Big Black Car",
+		"artist": "Gregory Alan Isakov",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/99/1c/79/991c79fb-60fd-8ea2-a3fe-696f6f227844/mzi.vlwdrreu.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/61/39/91/61399139-da03-9708-debc-34528f98404b/mzaf_6342526958478220086.plus.aac.p.m4a",
+		"bgFrom": "#352e4d",
+		"bgTo": "#b47454"
+	},
+	{
+		"id": "1754219082",
+		"title": "Flowers In Your Hair",
+		"artist": "The Lumineers",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/5b/95/ee5b95dc-4086-4e71-98c9-07f9dde84375/18513.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/42/6f/37426fba-07a3-4681-6ed7-1d5756269484/mzaf_6262286708862123462.plus.aac.p.m4a",
+		"bgFrom": "#4a2c2c",
+		"bgTo": "#bf3f3f"
+	},
+	{
+		"id": "1753810933",
+		"title": "Where We Are",
+		"artist": "The Lumineers",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d1/67/92/d16792c4-dde9-3e95-ca51-ed30a24c6bb6/18680.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/78/31/bc783183-37eb-5fd9-5237-56302f4dedd1/mzaf_467206698006700228.plus.aac.p.m4a",
+		"bgFrom": "#513f5a",
+		"bgTo": "#4474d6"
+	},
+	{
+		"id": "1724272788",
+		"title": "Scared To Start",
+		"artist": "Michael Marcagi",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0e/a3/c8/0ea3c827-2cfa-d097-7aff-6c86026986cb/054391328250.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/70/16/b8701632-3eaa-c5eb-46a4-338cc4316fcd/mzaf_4183366284239135637.plus.aac.p.m4a",
+		"bgFrom": "#444444",
+		"bgTo": "#7f7f7f"
+	},
+	{
+		"id": "1320696643",
+		"title": "My Repair (Radio Mix)",
+		"artist": "Sons Of The East",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/80/a0/c780a072-74d4-3a91-86bf-f435dde5ac45/TI67581_cover.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8a/49/cf/8a49cf8a-b5d1-cd43-8c9b-29b0307e1298/mzaf_5047538479566862302.plus.aac.p.m4a",
+		"bgFrom": "#4e3f3b",
+		"bgTo": "#c48c6c"
+	},
+	{
+		"id": "1769298895",
+		"title": "Free",
+		"artist": "Jack and the Weatherman",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/37/08/733708e2-9650-29b8-8bd3-cef07b328ca8/8718857504900.png/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/48/1c/7d481cc6-a76a-8542-a4d0-3358519d65a0/mzaf_11916984823398946589.plus.aac.p.m4a",
+		"bgFrom": "#64463c",
+		"bgTo": "#356f67"
+	},
+	{
+		"id": "609187708",
+		"title": "Bloom (Bonus Track)",
+		"artist": "The Paper Kites",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/a9/d7/0ba9d7c7-2e68-dc9b-cde4-d142e8ce86b1/067003806756.png/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/22/ae/7d22ae06-abe0-33b2-a055-099149bc9ecd/mzaf_7018395687727242261.plus.aac.p.m4a",
+		"bgFrom": "#543f30",
+		"bgTo": "#7c2a28"
+	},
+	{
+		"id": "1435860552",
+		"title": "The Boy Prince",
+		"artist": "Winterbourne",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d1/53/c3/d153c3a7-361f-d62a-e694-beeef8774067/00602567976578.rgb.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ac/22/72/ac227267-08c2-4bea-370d-7245d5990dbe/mzaf_5382872205542016081.plus.aac.p.m4a",
+		"bgFrom": "#424242",
+		"bgTo": "#954844"
+	},
+	{
+		"id": "1633525100",
+		"title": "Grenadine",
+		"artist": "Oliver Hazard",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4c/e5/18/4ce51871-07c9-4be4-8f42-40e79efc40cd/193436169066.png/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/30/ac/79/30ac79a1-f209-a23f-6d7f-87819fab7210/mzaf_3919937914987981551.plus.aac.p.m4a",
+		"bgFrom": "#264541",
+		"bgTo": "#cc3449"
+	},
+	{
+		"id": "1713201230",
+		"title": "Sunrise",
+		"artist": "Darren Kiely",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f9/fe/04/f9fe0498-b014-62d0-90aa-8eacf6a1952b/196871566520.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/62/64/2062642a-8910-b01a-f391-050dd93883bf/mzaf_8730870870960199870.plus.aac.p.m4a",
+		"bgFrom": "#705d3f",
+		"bgTo": "#bc844e"
+	},
+	{
+		"id": "1756019127",
+		"title": "Lifeline",
+		"artist": "Ryan Harris",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/4f/1f/894f1fc7-399f-e9d0-6a9c-1fd6776d4698/artwork.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/6c/b9/dd6cb9f2-ac16-ad38-86a2-5dfbcad26957/mzaf_2558062624085434023.plus.aac.p.m4a",
+		"bgFrom": "#6f5e49",
+		"bgTo": "#ccb494"
+	},
+	{
+		"id": "1680015715",
+		"title": "Mostly",
+		"artist": "Vian Izak & Juniper Vale",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/71/e0/41/71e0410d-0c50-12ea-7745-9a3076768088/cover.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/cd/8b/20/cd8b20ad-742f-e701-d093-83b5065ffc18/mzaf_751065408331266071.plus.aac.p.m4a",
+		"bgFrom": "#283d4e",
+		"bgTo": "#de1a19"
+	},
+	{
+		"id": "1671637762",
+		"title": "crutches",
+		"artist": "Daniel Leggs",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/20/15/1420158b-36d1-3b8e-973e-cae64a1271d3/075678623189.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f1/01/82/f10182fa-ae80-fbe8-b809-06a048e61f06/mzaf_16030261785369941516.plus.aac.p.m4a",
+		"bgFrom": "#454545",
+		"bgTo": "#7f7f7f"
+	},
+	{
+		"id": "659613756",
+		"title": "Amsterdam",
+		"artist": "Gregory Alan Isakov",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/12/00/1c/12001c80-04b7-2b53-0b29-3021749425ba/Weatherman_vinyl_front_cover-ALT-1600px-300_dpi.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/da/a7/c1daa7c0-6eaf-fec0-f208-2276c0c34df8/mzaf_12714097300844677961.plus.aac.p.m4a",
+		"bgFrom": "#3a2e23",
+		"bgTo": "#978767"
+	},
+	{
+		"id": "659613760",
+		"title": "Time Will Tell",
+		"artist": "Gregory Alan Isakov",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/12/00/1c/12001c80-04b7-2b53-0b29-3021749425ba/Weatherman_vinyl_front_cover-ALT-1600px-300_dpi.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/17/17/a4171730-da3e-a32c-4410-069b179a2dd8/mzaf_9931837714337771723.plus.aac.p.m4a",
+		"bgFrom": "#3a2e23",
+		"bgTo": "#978767"
+	},
+	{
+		"id": "1482932659",
+		"title": "Icarus & Apollo",
+		"artist": "Ripto",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d4/d4/94/d4d4944f-d77a-32ca-cfa8-0f777d034672/artwork.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/83/85/ec/8385ec81-87de-bffa-5b90-ba043be6b72b/mzaf_15613604408247699076.plus.aac.p.m4a",
+		"bgFrom": "#594236",
+		"bgTo": "#bc643c"
+	},
+	{
+		"id": "659613761",
+		"title": "O' City Lights",
+		"artist": "Gregory Alan Isakov",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/12/00/1c/12001c80-04b7-2b53-0b29-3021749425ba/Weatherman_vinyl_front_cover-ALT-1600px-300_dpi.jpg/400x400bb.jpg",
+		"previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/72/95/95729592-38f3-4e0d-8cf8-c55b8981f3e8/mzaf_8429732052334656363.plus.aac.p.m4a",
+		"bgFrom": "#3a2e23",
+		"bgTo": "#978767"
 	}
 ]
