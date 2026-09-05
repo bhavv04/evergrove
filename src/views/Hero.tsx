@@ -6,7 +6,6 @@ import { CatToggleButton } from "@/components/hero/CatToggle";
 import { SectionTitle } from "@/components/typography/SectionTitle";
 import { useLiveAge } from "@/components/hero/useLiveAge";
 import { BookHoverText } from "@/components/hero/BookHoverText";
-import { GameHoverText } from "@/components/hero/GamesHoverText";
 
 export default function HeroSection() {
 	const age = useLiveAge();
@@ -45,8 +44,8 @@ export default function HeroSection() {
 
 			<div className="fade-in-up" style={{ "--delay-index": 5 } as React.CSSProperties}>
 				<p>
-					Outside of programming, I love learning new things, reading <BookHoverText />, playing <GameHoverText />, and exploring outside! Here&apos;s
-					what I&apos;m currently up to:
+					Outside of programming, I love learning new things, reading <BookHoverText />, messing around in the workshop, and exploring outside!
+					Here&apos;s what I&apos;m currently up to:
 				</p>
 			</div>
 
